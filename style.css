@@ -1,0 +1,18 @@
+body{
+    background-color: dimgray;
+}
+
+.div1{
+padding-bottom: 50px;
+text-align: center;
+}
+
+.div2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+text-align: center;
+}
+
+.div3{
+    padding-left: 200px;
+}
