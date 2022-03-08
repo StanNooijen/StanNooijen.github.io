@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #c1b19a;
     margin:0;
 }
 
@@ -23,24 +23,24 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gray;
+    background-color: #877d6c;
     top: 0;
     width: 100%;
 }
- li{
-     float: left;
- }
+li{
+    float: left;
+}
 
- li a:hover:not(.active) {
-     background-color: dimgray;
- }
+li a:hover:not(.active) {
+    background-color: gray;
+}
 
- li a {
-    text-transform: capitalize;
-    text-align: center;
-    display: block;
-    color: white;
-    padding: 15px 25px;
-    background-color: black;
-    text-decoration: none;
- }
+li a {
+   text-transform: capitalize;
+   text-align: center;
+   display: block;
+   color: white;
+   padding: 15px 25px;
+   background-color: #a99a86;
+   text-decoration: none;
+}
