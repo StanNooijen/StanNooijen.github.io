@@ -25,8 +25,6 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: #877d6c;
-    top: 0;
-    width: 100%;
 }
 li{
     float: left;
