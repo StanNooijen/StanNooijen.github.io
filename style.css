@@ -3,22 +3,6 @@ body{
     margin:0;
 }
 
-.div1{
-    padding-bottom: 50px;
-    text-align: center;
-}
-
-.div2{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.div3{
-    padding-left: 200px;
-}
-
 ul{
     list-style-type: none;
     margin: 0;
