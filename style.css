@@ -49,6 +49,7 @@ img{
 
 .card-header{
     text-align: center;
+    text-transform: capitalize;
 }
 
 .card-body{
