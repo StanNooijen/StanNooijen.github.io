@@ -1,77 +1,127 @@
-body{
-    background-color: #ffffff;
-}
-
-button{
-    border-style: none;
+li{
+    list-style-type: none;  
+    float: left;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .active{
-    background-color: rgb(107, 107, 107);
+    background-color: rgb(190, 190, 190);
 }
 
-.titles{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
+li:hover{
+    background-color: rgb(190, 190, 190);
+}
+
+li a{
     text-decoration: none;
-    background-color: rgb(221, 221, 221);
+    color: black;
 }
 
-ul{
-    position: sticky;
+li a:hover{
+    color: black;
+}
+
+.topnav{
+    margin-top: 0.1rem;
     overflow: hidden;
-    background-color: rgb(173, 173, 173);
-    top: 0;
-    width: 100%;
 }
-li{
-    float: left;
-    display: inline;
-}
-
-li a:hover:not(.active) {
-    background-color: rgb(119, 119, 119);
-    color: white;
+.hmm{
+    margin-top: -0.5rem ; 
+    margin-left: -2rem;
+    background-color: white;
+    font-family: 'Titan One', cursive;
 }
 
-li a {
-   text-transform: capitalize;
-   display: block;
-   color: white;
-   padding: 15px 25px;
-   background-color: #000000;
-   text-decoration: none;
-}
-img{
-    width: 350px;
-    height: 200px;
-    transition: 2s;
+.hmm:hover{
+    background-color: white;
 }
 
-img:hover{
-    transform: scale(1.1);
+.textNavbar{
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: white;
 }
 
-.row{
-    padding-top: 60px;
+.textNavbar2{
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-decoration: white;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+
+.Aboutme{
+    margin-top: 15rem;
+    margin-left: 10rem;
+    margin-bottom: 4rem;
+    font-family: 'Titan One', cursive;
+    font-size: 4rem;
+}
+.Text{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 9rem;
+    margin-right: 11rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.img{
+    transform: scale(0.5);
+    margin-top: -8rem;
+}
+
+.imgplace{
+    padding-right: 8rem;
+    margin-right: 2rem;
+}
+
+.projecten{
+    font-family: 'Titan One', cursive;
+    margin-left: 53rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
 }
 
 .card-header{
     text-align: center;
-    text-transform: capitalize;
+    color: white;
 }
 
 .card-body{
-    text-align: center;
+    text-align: left;
+    margin-bottom: 10rem;
 }
 
-.card-footer{
-    text-align: center;
+.imgmakey{
+    transform: scale(0.1);
+    margin-left: -107.8rem;
+    margin-top: -55rem;
+    margin-bottom: -55rem;
 }
 
-.card-footer a{
-    text-decoration: none;
-    color: #000000;
+.imgprocessing{
+    transform: scale(0.5);
+    margin-top: -10rem;
 }
 
+.headertext{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Alltext{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.color{
+    background-color: black;
+}
