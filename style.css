@@ -126,4 +126,9 @@ li a:hover{
 .color{
     background-color: black;
 }
+
+.align{
+    text-align: left;
+    margin-top: 1rem;
+}
   
