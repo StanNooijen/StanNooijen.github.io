@@ -154,131 +154,167 @@ li a:hover{
     height: 61.2rem;
     width: auto;
     background-color: black;
-    color: white;
+    color: black;
     position: relative;
 }
 
 .buttontop1{
     border-style: solid;
     color:black;
+    border-width: 5px;
     background-image: url('img/Arcade.png');
     background-position: center;
     background-size: cover;
-    padding-bottom: 20rem;
+    text-decoration: none;
 }
 .buttontop2{
+    text-decoration: none;
     border-style: solid;
-    color:white;
+    color:black;
+    border-width: 5px;
     background-image: url('img/kirby.png');
     background-position: center;
     background-size: cover;
-    padding-bottom: 20rem;
 }
 .buttontop3{
+    text-decoration: none;
     border-style: solid;
     color:black;
+    border-width: 5px;
     background-image: url('img/Arcade.png');
     background-position: center;
     background-size: cover;
-    padding-bottom: 20rem;
 }
 .buttontop4{
+    text-decoration: none;
     border-style: solid;
-    color:white;
+    color:black;
+    border-width: 5px;
     background-image: url('img/kirby.png');
     background-position: center;
     background-size: cover;
-    padding-bottom: 20rem;
 }
 .buttontop5{
+    text-decoration: none;
     border-style: solid;
+    border-width: 5px;
     color:black;
     background-image: url('img/Arcade.png');
     background-position: center;
     background-size: cover;
-    padding-bottom: 20rem;
 }
 .buttontop6{
+    text-decoration: none;
     border-style: solid;
-    color:white;
+    color:black;
+    border-width: 5px;
     background-image: url('img/kirby.png');
     background-position: center;
     background-size: cover;
-    padding-bottom: 20rem;
 }
 
 .buttonbottom1{
+    text-decoration: none;
     border-style: solid;
-    color:white;
-    background-image: url('img/kirby.png');
+    color:black;
+    border-width: 5px;
+    background-image: url('img/Arcade.png');
     background-position: center;
     background-size: cover;
-    padding-top: 10rem;
-    margin-top: 5rem;
 }
 .buttonbottom2{
+    text-decoration: none;
     border-style: solid;
     color:black;
-    background-image: url('img/Arcade.png');
+    border-width: 5px;
+    background-image: url('img/kirby.png');
     background-position: center;
     background-size: cover;
-    padding-top: 20rem;
-    margin-top: 5rem;
 }
 .buttonbottom3{
+    text-decoration: none;
     border-style: solid;
-    color:white;
-    background-image: url('img/kirby.png');
+    color:black;
+    border-width: 5px;
+    background-image: url('img/Arcade.png');
     background-position: center;
     background-size: cover;
-    padding-top: 20rem;
-    margin-top: 5rem;
 }
 .buttonbottom4{
+    text-decoration: none;
     border-style: solid;
     color:black;
-    background-image: url('img/Arcade.png');
-    background-position: center;
-    background-size: cover;
-    padding-top: 20rem;
-    margin-top: 5rem;
-}
-.buttonbottom5{
-    border-style: solid;
-    color:white;
+    border-width: 5px;
     background-image: url('img/kirby.png');
     background-position: center;
     background-size: cover;
-    padding-top: 20rem;
-    margin-top: 5rem;
 }
-.buttonbottom6{
+.buttonbottom5{
+    text-decoration: none;
     border-style: solid;
-    color:black;
+    border-width: 5px;
+    color: black;
     background-image: url('img/Arcade.png');
     background-position: center;
     background-size: cover;
-    padding-top: 20rem;
-    margin-top: 5rem;
 }
+.buttonbottom6{
+    text-decoration: none;
+    border-style: solid;
+    color: black;
+    border-width: 5px;
+    background-image: url('img/kirby.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container-fluid1{
+    background-color: black;
+}
+
+.row-links a {
+    height: 100px;
+    background-color: black;
+    text-indent: 120%;
+    font-size: 0%;
+}
+.row-links a:hover{
+    background-color: white;
+    text-align: left;
+    color: white;
+    opacity: 89%;
+    border-width: 2px;
+    transition: 5s ;
+    text-indent: 0%;
+    transform: scale(102%);
+    font-size: 100%;
+}
+
+  .row-links-top a:nth-child(even) {
+    height: 150px;
+  }
+  .row-links-bottom a:nth-child(odd) {
+    height: 150px;
+  }
+  
+  .row-links-bottom {
+    align-items: flex-end;
+  }
+  
 .works__title {
 	z-index: 100;
 	width: 100%;
 	text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
-	font-size: 10vw;
-	display: grid;
-	grid-template-columns: 80%;
-	grid-template-rows: 100%;
+	font-size: 12rem;
 	align-items: start;
-    margin-left: 10rem;
     position: relative;
+    color: rgb(212, 212, 212);
 }
 
 .works__title > span {
-    margin-top: 5rem;
 	grid-area: 1 / 1 / -1 / -1;
-    margin-bottom: 3.5rem;
 }
 
 .works__title .oh {
