@@ -134,13 +134,13 @@ li a:hover{
     text-align: left;
     margin-left: 0.8rem;
 }
-button{
+.arrow{
     transform: scale(500%);
     border-style: hidden;
     background-color: white;
 }
 
-button:hover{
+.arrow:hover{
     transition: 1s;
     transform: scale(550%);
 }
@@ -150,15 +150,117 @@ button:hover{
     margin-left: 19rem;
 }
 
-
 .container1{
-    height: 60.5rem;
+    height: 61.2rem;
     width: auto;
     background-color: black;
     color: white;
     position: relative;
 }
 
+.buttontop1{
+    border-style: solid;
+    color:black;
+    background-image: url('img/Arcade.png');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20rem;
+}
+.buttontop2{
+    border-style: solid;
+    color:white;
+    background-image: url('img/kirby.png');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20rem;
+}
+.buttontop3{
+    border-style: solid;
+    color:black;
+    background-image: url('img/Arcade.png');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20rem;
+}
+.buttontop4{
+    border-style: solid;
+    color:white;
+    background-image: url('img/kirby.png');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20rem;
+}
+.buttontop5{
+    border-style: solid;
+    color:black;
+    background-image: url('img/Arcade.png');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20rem;
+}
+.buttontop6{
+    border-style: solid;
+    color:white;
+    background-image: url('img/kirby.png');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20rem;
+}
+
+.buttonbottom1{
+    border-style: solid;
+    color:white;
+    background-image: url('img/kirby.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 10rem;
+    margin-top: 5rem;
+}
+.buttonbottom2{
+    border-style: solid;
+    color:black;
+    background-image: url('img/Arcade.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 20rem;
+    margin-top: 5rem;
+}
+.buttonbottom3{
+    border-style: solid;
+    color:white;
+    background-image: url('img/kirby.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 20rem;
+    margin-top: 5rem;
+}
+.buttonbottom4{
+    border-style: solid;
+    color:black;
+    background-image: url('img/Arcade.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 20rem;
+    margin-top: 5rem;
+}
+.buttonbottom5{
+    border-style: solid;
+    color:white;
+    background-image: url('img/kirby.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 20rem;
+    margin-top: 5rem;
+}
+.buttonbottom6{
+    border-style: solid;
+    color:black;
+    background-image: url('img/Arcade.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 20rem;
+    margin-top: 5rem;
+}
 .works__title {
 	z-index: 100;
 	width: 100%;
@@ -174,8 +276,9 @@ button:hover{
 }
 
 .works__title > span {
-    margin-top: 25rem;
+    margin-top: 5rem;
 	grid-area: 1 / 1 / -1 / -1;
+    margin-bottom: 3.5rem;
 }
 
 .works__title .oh {
@@ -192,19 +295,6 @@ button:hover{
     text-align: right;
 }
 
-.work{
-    border-style: solid;
-    color:white;
-    padding-bottom: 20rem;
-    position: absolute;
-}
-
-.work1{
-    border-style: solid;
-    color:white;
-    position: absolute;
-    bottom: 0;
-}
   
 /*phone*/
 @media (max-width: 320px) {
