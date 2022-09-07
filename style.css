@@ -150,19 +150,11 @@ li a:hover{
     margin-left: 19rem;
 }
 
-.container1{
-    height: 61.2rem;
-    width: auto;
-    background-color: black;
-    color: black;
-    position: relative;
-}
-
 .buttontop1{
     border-style: solid;
     color:black;
     border-width: 5px;
-    background-image: url('img/Arcade.png');
+    background-image: url('arcade/img/Arcade.png');
     background-position: center;
     background-size: cover;
     text-decoration: none;
@@ -172,7 +164,7 @@ li a:hover{
     border-style: solid;
     color:black;
     border-width: 5px;
-    background-image: url('img/kirby.png');
+    background-image: url('processing/img/kirby.png');
     background-position: center;
     background-size: cover;
 }
@@ -181,7 +173,7 @@ li a:hover{
     border-style: solid;
     color:black;
     border-width: 5px;
-    background-image: url('img/Arcade.png');
+    background-image: url('makey/img/makeymakeyimg2.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -190,7 +182,7 @@ li a:hover{
     border-style: solid;
     color:black;
     border-width: 5px;
-    background-image: url('img/kirby.png');
+    background-image: url('agile/img/bappo.png');
     background-position: center;
     background-size: cover;
 }
@@ -199,7 +191,7 @@ li a:hover{
     border-style: solid;
     border-width: 5px;
     color:black;
-    background-image: url('img/Arcade.png');
+    background-image: url('');
     background-position: center;
     background-size: cover;
 }
@@ -208,7 +200,7 @@ li a:hover{
     border-style: solid;
     color:black;
     border-width: 5px;
-    background-image: url('img/kirby.png');
+    background-image: url('');
     background-position: center;
     background-size: cover;
 }
@@ -218,7 +210,7 @@ li a:hover{
     border-style: solid;
     color:black;
     border-width: 5px;
-    background-image: url('img/Arcade.png');
+    background-image: url('');
     background-position: center;
     background-size: cover;
 }
@@ -227,7 +219,7 @@ li a:hover{
     border-style: solid;
     color:black;
     border-width: 5px;
-    background-image: url('img/kirby.png');
+    background-image: url('');
     background-position: center;
     background-size: cover;
 }
@@ -236,7 +228,7 @@ li a:hover{
     border-style: solid;
     color:black;
     border-width: 5px;
-    background-image: url('img/Arcade.png');
+    background-image: url('');
     background-position: center;
     background-size: cover;
 }
@@ -245,7 +237,7 @@ li a:hover{
     border-style: solid;
     color:black;
     border-width: 5px;
-    background-image: url('img/kirby.png');
+    background-image: url('');
     background-position: center;
     background-size: cover;
 }
@@ -254,7 +246,7 @@ li a:hover{
     border-style: solid;
     border-width: 5px;
     color: black;
-    background-image: url('img/Arcade.png');
+    background-image: url('');
     background-position: center;
     background-size: cover;
 }
@@ -263,7 +255,7 @@ li a:hover{
     border-style: solid;
     color: black;
     border-width: 5px;
-    background-image: url('img/kirby.png');
+    background-image: url('');
     background-position: center;
     background-size: cover;
 }
@@ -289,6 +281,7 @@ li a:hover{
     text-indent: 0%;
     transform: scale(102%);
     font-size: 100%;
+    text-align: center;
 }
 
   .row-links-top a:nth-child(even) {
@@ -321,15 +314,6 @@ li a:hover{
 	line-height: 0.7;
 }
 
-.works__title .oh__inner {
-	line-height: 0.7;
-	padding-top: 1.5vw;
-}
-
-.works__title > span:last-child {
-	align-self: end;
-    text-align: right;
-}
 
   
 /*phone*/
