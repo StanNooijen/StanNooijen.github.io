@@ -1,3 +1,7 @@
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
 li{
     list-style-type: none;  
     float: left;
@@ -80,9 +84,6 @@ li a:hover{
     margin-top: -8rem;
 }
 
-.imgplace{
-}
-
 .projecten{
     font-family: 'Titan One', cursive;
     margin-left: 53rem;
@@ -129,14 +130,29 @@ li a:hover{
     text-align: left;
     margin-left: 0.8rem;
 }
-
-.i{
-    text-align: center;
+button{
+    transform: scale(500%);
+    border-style: hidden;
+    background-color: white;
 }
 
+button:hover{
+    transition: 1s;
+    transform: scale(550%);
+}
+
+.arrow{
+    margin-top: 8rem;
+    margin-left: 19rem;
+}
+
+
 .container1{
-    height: 61.3rem;
+    height: 60.5rem;
     width: auto;
+    background-color: black;
+    color: white;
+    position: relative;
 }
 
 .works__title {
@@ -150,6 +166,7 @@ li a:hover{
 	grid-template-rows: 100%;
 	align-items: start;
     margin-left: 10rem;
+    position: relative;
 }
 
 .works__title > span {
@@ -169,6 +186,20 @@ li a:hover{
 .works__title > span:last-child {
 	align-self: end;
     text-align: right;
+}
+
+.work{
+    border-style: solid;
+    color:white;
+    padding-bottom: 20rem;
+    position: absolute;
+}
+
+.work1{
+    border-style: solid;
+    color:white;
+    position: absolute;
+    bottom: 0;
 }
   
 /*phone*/
