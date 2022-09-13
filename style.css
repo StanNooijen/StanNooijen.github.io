@@ -1,12 +1,17 @@
 .example::-webkit-scrollbar {
     display: none;
-  }
+}
+
 .example {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
-li{
-    list-style-type: none;  
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+li {
+    list-style-type: none;
     float: left;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -15,39 +20,40 @@ li{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.active{
+.active {
     background-color: rgb(190, 190, 190);
 }
 
-li:hover{
+li:hover {
     background-color: rgb(190, 190, 190);
 }
 
-li a{
+li a {
     text-decoration: none;
     color: black;
 }
 
-li a:hover{
+li a:hover {
     color: black;
 }
 
-.topnav{
+.topnav {
     margin-top: 0.1rem;
     overflow: hidden;
 }
-.hmm{
-    margin-top: -0.5rem ; 
+
+.hmm {
+    margin-top: -0.5rem;
     margin-left: -2rem;
     background-color: white;
     font-family: 'Titan One', cursive;
 }
 
-.hmm:hover{
+.hmm:hover {
     background-color: white;
 }
 
-.textNavbar{
+.textNavbar {
     margin-top: 1.2rem;
     margin-left: 1rem;
     padding-right: 1rem;
@@ -55,7 +61,7 @@ li a:hover{
     background-color: white;
 }
 
-.textNavbar2{
+.textNavbar2 {
     margin-top: 1.2rem;
     margin-left: 1rem;
     margin-right: 0.3rem;
@@ -67,14 +73,15 @@ li a:hover{
 }
 
 
-.Aboutme{
+.Aboutme {
     margin-top: 15rem;
     margin-left: 10rem;
     margin-bottom: 4rem;
     font-family: 'Titan One', cursive;
     font-size: 4rem;
 }
-.Text{
+
+.Text {
     font-family: 'Roboto Condensed', sans-serif;
     margin-left: 9rem;
     margin-right: 11rem;
@@ -82,126 +89,137 @@ li a:hover{
     font-size: 1.5rem;
 }
 
-.img{
+.img {
     transform: scale(0.5);
     margin-top: -8rem;
 }
 
-.projecten{
+.projecten {
     font-family: 'Titan One', cursive;
     margin-left: 53rem;
     margin-bottom: 5rem;
     margin-top: 5rem;
 }
 
-.card-header{
+.card-header {
     text-align: center;
     color: white;
 }
 
-.card-body{
+.card-body {
     text-align: left;
     margin-bottom: 10rem;
 }
 
-.imgmakey{
+.imgmakey {
     transform: scale(0.1);
     margin-left: -107.8rem;
     margin-top: -55rem;
     margin-bottom: -55rem;
 }
 
-.imgprocessing{
+.imgprocessing {
     transform: scale(0.5);
     margin-top: -10rem;
 }
 
-.headertext{
+.headertext {
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.Alltext{
+.Alltext {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.color{
+.color {
     background-color: black;
 }
 
-.align{
+.align {
     text-align: left;
     margin-left: 0.8rem;
 }
-.arrow{
+
+.arrow {
+    align-self: center;
     transform: scale(500%);
     border-style: hidden;
     background-color: white;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    margin-left: 22rem;
+    background-color: transparent;
 }
 
-.arrow:hover{
+.arrow:hover {
     transition: 1s;
     transform: scale(550%);
 }
 
-.arrow{
-    margin-top: 5rem;
-    margin-left: 22rem;
-}
-
-.containerStyle{
+.containerStyle {
     background-color: black;
     color: white;
 }
 
-.buttonstyle{
+.buttonstyle {
     border-style: solid;
-    color:black;
+    color: black;
     border-width: 5px;
     background-position: center;
     background-size: cover;
     text-decoration: none;
 }
 
-.topPadding{
+.topPadding {
     padding-top: 0.2rem;
 }
 
-.buttontop1{
+.buttontop1 {
     background-image: url('arcade/img/Arcade.png');
 }
-.buttontop2{
+
+.buttontop2 {
     background-image: url('processing/img/kirby.png');
 }
-.buttontop3{
+
+.buttontop3 {
     background-image: url('makey/img/makeymakeyimg2.jpg');
 }
-.buttontop4{
+
+.buttontop4 {
     background-image: url('agile/img/bappo.png');
 }
-.buttontop5{
+
+.buttontop5 {
     background-image: url('img/weatherapp.png');
 }
-.buttontop6{
+
+.buttontop6 {
     background-image: url('');
 }
 
-.buttonbottom1{
+.buttonbottom1 {
     background-image: url('');
 }
-.buttonbottom2{
+
+.buttonbottom2 {
     background-image: url('');
 }
-.buttonbottom3{
+
+.buttonbottom3 {
     background-image: url('');
 }
-.buttonbottom4{
+
+.buttonbottom4 {
     background-image: url('');
 }
-.buttonbottom5{
+
+.buttonbottom5 {
     background-image: url('');
 }
-.buttonbottom6{
+
+.buttonbottom6 {
     background-image: url('');
 }
 
@@ -211,56 +229,54 @@ li a:hover{
     text-indent: 120%;
     font-size: 0%;
 }
-.row-links a:hover{
+
+.row-links a:hover {
     background-color: white;
     color: white;
     opacity: 89%;
     border-width: 2px;
-    transition: 5s ;
+    transition: 5s;
     text-indent: 0%;
     transform: scale(102%);
     font-size: 100%;
     text-align: center;
 }
 
-  .row-links-top a:nth-child(even) {
+.row-links-top a:nth-child(even) {
     height: 150px;
-  }
-  .row-links-bottom a:nth-child(odd) {
+}
+
+.row-links-bottom a:nth-child(odd) {
     height: 150px;
-  }
-  
-  .row-links-bottom {
+}
+
+.row-links-bottom {
     align-items: flex-end;
-  }
-  
+}
+
 .works__title {
-	z-index: 100;
-	width: 100%;
-	text-transform: uppercase;
+    z-index: 100;
+    width: 100%;
+    text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
-	font-size: 12rem;
-	align-items: start;
+    font-size: 12rem;
+    align-items: start;
     position: relative;
     color: rgb(212, 212, 212);
 }
 
-.works__title > span {
-	grid-area: 1 / 1 / -1 / -1;
+.works__title>span {
+    grid-area: 1 / 1 / -1 / -1;
 }
 
 .works__title .oh {
-	line-height: 0.7;
+    line-height: 0.7;
 }
 
 
-  
+
 /*phone*/
-@media (max-width: 320px) {
-    
-}
+@media (max-width: 320px) {}
 
 /*tablet*/
-@media (max-width: 1024px) {
-    
-}
+@media (max-width: 1024px) {}
