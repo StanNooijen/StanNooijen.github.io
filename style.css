@@ -131,32 +131,45 @@ li a:hover {
 
 .arrow {
     align-self: center;
-    transform: scale(500%);
+    font-size: 5rem;
     border-style: hidden;
     background-color: white;
-    margin-top: 7rem;
+    margin-top: 4rem;
     margin-bottom: 5rem;
-    margin-left: 22rem;
+    margin-left: 19rem;
     background-color: transparent;
 }
 .arrowUp {
-    transform: scale(80%);
+    margin-left: 6rem;
+    font-size: 10rem;
     transform: rotate(180deg);
     border-style: hidden;
     color: white;
-    margin-top: 7rem;
-    margin-bottom: 5rem;
     background-color: transparent;
+    transition: 1.5s;
 }
 
 .arrow:hover {
-    transition: 1s;
-    transform: scale(550%);
+    transition: 1.5s;
+    font-size: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    margin-left: 19rem;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-radius: 30rem;
 }
 .arrowUp:hover {
-    transition: 1s;
-    transform: scale(150%);
-    transform: rotate(180deg);
+    margin-left: 6rem;
+    background-color: white;
+    color: black;
+    transition: 1.5s;
+    font-size: 10rem;
+    transform: rotate(540deg);
+    border-style: solid;
+    border-color: white;
+    border-radius: 30rem;
 }
 
 .containerStyle {
@@ -174,7 +187,7 @@ li a:hover {
 }
 
 .topPadding {
-    padding-top: 0.2rem;
+    padding-top: 0.6rem;
 }
 
 .buttontop1 {
@@ -239,7 +252,6 @@ li a:hover {
     border-width: 2px;
     transition: 5s;
     text-indent: 0%;
-    transform: scale(102%);
     font-size: 100%;
     text-align: center;
 }
