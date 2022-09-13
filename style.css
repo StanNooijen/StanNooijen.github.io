@@ -111,18 +111,6 @@ li a:hover {
     margin-bottom: 10rem;
 }
 
-.imgmakey {
-    transform: scale(0.1);
-    margin-left: -107.8rem;
-    margin-top: -55rem;
-    margin-bottom: -55rem;
-}
-
-.imgprocessing {
-    transform: scale(0.5);
-    margin-top: -10rem;
-}
-
 .headertext {
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
@@ -151,10 +139,24 @@ li a:hover {
     margin-left: 22rem;
     background-color: transparent;
 }
+.arrowUp {
+    transform: scale(80%);
+    transform: rotate(180deg);
+    border-style: hidden;
+    color: white;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    background-color: transparent;
+}
 
 .arrow:hover {
     transition: 1s;
     transform: scale(550%);
+}
+.arrowUp:hover {
+    transition: 1s;
+    transform: scale(150%);
+    transform: rotate(180deg);
 }
 
 .containerStyle {
@@ -273,6 +275,9 @@ li a:hover {
     line-height: 0.7;
 }
 
+.noScroll{
+    overflow: hidden;
+}
 
 
 /*phone*/
