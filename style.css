@@ -1,7 +1,6 @@
 .example::-webkit-scrollbar {
     display: none;
   }
-
 .example {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -150,119 +149,60 @@ li a:hover{
     margin-left: 22rem;
 }
 
-.buttontop1{
+.containerStyle{
+    background-color: black;
+    color: white;
+}
+
+.buttonstyle{
     border-style: solid;
     color:black;
     border-width: 5px;
-    background-image: url('arcade/img/Arcade.png');
     background-position: center;
     background-size: cover;
     text-decoration: none;
+}
+
+.topPadding{
+    padding-top: 0.2rem;
+}
+
+.buttontop1{
+    background-image: url('arcade/img/Arcade.png');
 }
 .buttontop2{
-    text-decoration: none;
-    border-style: solid;
-    color:black;
-    border-width: 5px;
     background-image: url('processing/img/kirby.png');
-    background-position: center;
-    background-size: cover;
 }
 .buttontop3{
-    text-decoration: none;
-    border-style: solid;
-    color:black;
-    border-width: 5px;
     background-image: url('makey/img/makeymakeyimg2.jpg');
-    background-position: center;
-    background-size: cover;
 }
 .buttontop4{
-    text-decoration: none;
-    border-style: solid;
-    color:black;
-    border-width: 5px;
     background-image: url('agile/img/bappo.png');
-    background-position: center;
-    background-size: cover;
 }
 .buttontop5{
-    text-decoration: none;
-    border-style: solid;
-    border-width: 5px;
-    color:black;
     background-image: url('img/weatherapp.png');
-    background-position: center;
-    background-size: cover;
 }
 .buttontop6{
-    text-decoration: none;
-    border-style: solid;
-    color:black;
-    border-width: 5px;
     background-image: url('');
-    background-position: center;
-    background-size: cover;
 }
 
 .buttonbottom1{
-    text-decoration: none;
-    border-style: solid;
-    color:black;
-    border-width: 5px;
     background-image: url('');
-    background-position: center;
-    background-size: cover;
 }
 .buttonbottom2{
-    text-decoration: none;
-    border-style: solid;
-    color:black;
-    border-width: 5px;
     background-image: url('');
-    background-position: center;
-    background-size: cover;
 }
 .buttonbottom3{
-    text-decoration: none;
-    border-style: solid;
-    color:black;
-    border-width: 5px;
     background-image: url('');
-    background-position: center;
-    background-size: cover;
 }
 .buttonbottom4{
-    text-decoration: none;
-    border-style: solid;
-    color:black;
-    border-width: 5px;
     background-image: url('');
-    background-position: center;
-    background-size: cover;
 }
 .buttonbottom5{
-    text-decoration: none;
-    border-style: solid;
-    border-width: 5px;
-    color: black;
     background-image: url('');
-    background-position: center;
-    background-size: cover;
 }
 .buttonbottom6{
-    text-decoration: none;
-    border-style: solid;
-    color: black;
-    border-width: 5px;
     background-image: url('');
-    background-position: center;
-    background-size: cover;
-}
-
-
-.container-fluid1{
-    background-color: black;
 }
 
 .row-links a {
