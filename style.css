@@ -96,9 +96,19 @@ li a:hover {
 
 .projecten {
     font-family: 'Titan One', cursive;
-    margin-left: 53rem;
+    text-align: center;
     margin-bottom: 5rem;
     margin-top: 5rem;
+}
+
+.card{
+    min-height: 10rem;
+    max-height: 30rem;
+    margin-left: 5rem;
+}
+.col-lg-5{
+    background-color: rgb(182, 182, 182);
+    border-style: none;
 }
 
 .card-header {
@@ -108,7 +118,10 @@ li a:hover {
 
 .card-body {
     text-align: left;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
+}
+.padding{
+    padding-bottom: 2rem;
 }
 
 .headertext {
@@ -141,7 +154,7 @@ li a:hover {
 }
 .arrowUp {
     margin-left: 6rem;
-    font-size: 10rem;
+    font-size: 12rem;
     transform: rotate(180deg);
     border-style: hidden;
     color: white;
@@ -165,7 +178,7 @@ li a:hover {
     background-color: white;
     color: black;
     transition: 1.5s;
-    font-size: 10rem;
+    font-size: 12rem;
     transform: rotate(540deg);
     border-style: solid;
     border-color: white;
@@ -186,8 +199,8 @@ li a:hover {
     text-decoration: none;
 }
 
-.topPadding {
-    padding-top: 0.6rem;
+.paddingtop{
+    padding-top: 0.5rem;
 }
 
 .buttontop1 {
@@ -239,6 +252,7 @@ li a:hover {
 }
 
 .row-links a {
+    z-index: 0;
     height: 100px;
     background-color: black;
     text-indent: 120%;
@@ -271,12 +285,30 @@ li a:hover {
 .works__title {
     z-index: 100;
     width: 100%;
+    text-decoration: transparent;
     text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 12rem;
+    font-size: 10rem;
     align-items: start;
     position: relative;
-    color: rgb(212, 212, 212);
+    color: rgb(180, 180, 180);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    transition: 2s;
+}
+.works__title:hover {
+    z-index: 100;
+    width: 100%;
+    text-decoration: transparent;
+    text-transform: uppercase;
+    font-size: 10rem;
+    align-items: start;
+    position: relative;
+    border-radius: 10rem;
+    color: black;
+    background-color: white;
+    transition: 2s;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .works__title>span {

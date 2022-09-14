@@ -17,7 +17,7 @@
   <title>Portfolio Stan Nooijen</title>
 </head>
 
-<body class="example noScroll">
+<body onload="loaded()" class="example noScroll" style="z-index: 1;">
   <ul class="topnav">
     <li class="fs-1 hmm">Stan Nooijen</li>
     <li class="textNavbar"><a href="index.html">Home</a></li>
@@ -34,7 +34,7 @@
             Ik heb gewerkt met verschillende codeertalen, zoals HTML, CSS, Javascript en C#. Ik sta open om nieuwe
             dingen te leren.</p>
         </div>
-        <button onclick="scrollDown()" class="arrow" ><i class="bi bi-arrow-down"></i></button>
+        <button onclick="scrollDown(), changeStyle()" class="arrow" ><i class="bi bi-arrow-down"></i></button>
       </div>
       <div class="col imgplace" style="background-color: black;">
         <img class="img" src="img/Stan.png">
@@ -44,55 +44,55 @@
   <section class="selected">
     <div class="container-fluid containerStyle">
       <div class="row justify-content-md-center text-center row-links row-links-top topPadding">
-        <a href="arcade.html" class="col buttonstyle buttontop1" style="height: 13rem;">
-          <p>1 player platformer</p>
+        <a id="top1" href="arcade.html" class="col buttonstyle buttontop1" style="height: 11.5rem;">
+          <p class="direction">1 player platformer</p>
         </a>
-        <a href="processing.html" class="col buttonstyle buttontop2" style="height: 24rem;">
+        <a id="top2" href="processing.html" class="col buttonstyle buttontop2" style="height: 22.5rem;">
           <p>kirby</p>
         </a>
-        <a href="makey.html" class="col buttonstyle buttontop3" style="height: 18rem;">
+        <a id="top3" href="makey.html" class="col buttonstyle buttontop3" style="height: 16.5rem;">
           <p>self made controller</p>
         </a>
-        <a href="agile.html" class="col buttonstyle buttontop4" style="height: 15.5rem;">
+        <a id="top4" href="agile.html" class="col buttonstyle buttontop4" style="height: 14rem;">
           <p>1 player platformer</p>
         </a>
-        <a href="weatherapp.html" class="col buttonstyle buttontop5" style="height: 20rem;">
+        <a id="top5" href="weatherapp.html" class="col buttonstyle buttontop5" style="height: 18.5rem;">
           <p>Covid App</p>
         </a>
-        <a href="how_to_plant.html" class="col buttonstyle buttontop6" style="height: 14rem;">
+        <a href="how_to_plant.html" class="col buttonstyle buttontop6" style="height: 12.5rem;">
           <p>test</p>
         </a>
       </div>
 
       <section class="row justify-content-md-center text-center works">
         <div class="col-lg-2">
-          <button onclick="scrollUp()" class="arrowUp" ><i class="bi bi-arrow-down"></i></button>
+          <button onclick="scrollUp(), changeBack()" class="arrowUp" ><i class="bi bi-arrow-down"></i></button>
         </div>
         <div class="col-lg-10">
-          <h2>
-            <span class="oh works__title" style="margin-top: 5rem;">Selected</span>
-            <span class="oh works__title" style="margin-top: 10rem;">Works</span>
-          </h2>
+          <a id="btn" href="werk.html" class="works__title">
+            <span>Selected</span>
+            <span>Works</span>
+          </a>
         </div>
       </section>
 
       <div class="row justify-content-md-center text-center row-links row-links-bottom">
-        <a href="" class="col buttonstyle buttonbottom1" style="height: 15rem;">
+        <a href="" id="works" class="col buttonstyle buttonbottom1" style="height: 13.5rem;">
           <p>test</p>
         </a>
-        <a href="" class="col buttonstyle buttonbottom2" style="height: 13.5rem;">
+        <a href="" id="works" class="col buttonstyle buttonbottom2" style="height: 12rem;">
           <p>test</p>
         </a>
-        <a href="" class="col buttonstyle buttonbottom3" style="height: 22.5rem;">
+        <a href="" id="works" class="col buttonstyle buttonbottom3" style="height: 21rem;">
           <p>test</p>
         </a>
-        <a href="" class="col buttonstyle buttonbottom4" style="height: 17.5rem;">
+        <a href="" id="works" class="col buttonstyle buttonbottom4" style="height: 16rem;">
           <p>test</p>
         </a>
-        <a href="" class="col buttonstyle buttonbottom5" style="height: 12.5rem;">
+        <a href="" id="works" class="col buttonstyle buttonbottom5" style="height: 11rem;">
           <p>test</p>
         </a>
-        <a href="" class="col buttonstyle buttonbottom6" style="height: 19.5rem;">
+        <a href="" id="works" class="col buttonstyle buttonbottom6" style="height: 18rem;">
           <p>test</p>
         </a>
       </div>
