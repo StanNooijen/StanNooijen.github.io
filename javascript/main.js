@@ -20,6 +20,8 @@ function changeStyle(){
   document.getElementById("top4").style.transition = "5s";
   document.getElementById("top5").style.marginBottom = "0rem";
   document.getElementById("top5").style.transition = "5s";
+  document.getElementById("top6").style.marginBottom = "0rem";
+  document.getElementById("top6").style.transition = "5s";
 }
 
 function changeBack(){
@@ -35,6 +37,8 @@ function changeBack(){
   document.getElementById("top4").style.transition = "5s";
   document.getElementById("top5").style.marginBottom = "10rem";
   document.getElementById("top5").style.transition = "5s";
+  document.getElementById("top6").style.marginBottom = "10rem";
+  document.getElementById("top6").style.transition = "5s";
 }
 
 function loaded(){
@@ -43,4 +47,5 @@ function loaded(){
   document.getElementById("top3").style.marginBottom = "10rem";
   document.getElementById("top4").style.marginBottom = "10rem";
   document.getElementById("top5").style.marginBottom = "10rem";
+  document.getElementById("top6").style.marginBottom = "10rem";
 }

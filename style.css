@@ -43,7 +43,7 @@ li a:hover {
 }
 
 .hmm {
-    margin-top: -0.5rem;
+    margin-top: -0.8rem;
     margin-left: -2rem;
     background-color: white;
     font-family: 'Titan One', cursive;
@@ -54,7 +54,7 @@ li a:hover {
 }
 
 .textNavbar {
-    margin-top: 1.2rem;
+    margin-top: 0.8rem;
     margin-left: 1rem;
     padding-right: 1rem;
     padding-left: 1rem;
@@ -62,7 +62,7 @@ li a:hover {
 }
 
 .textNavbar2 {
-    margin-top: 1.2rem;
+    margin-top: 0.8rem;
     margin-left: 1rem;
     margin-right: 0.3rem;
     padding-right: 1rem;
@@ -126,6 +126,11 @@ li a:hover {
 
 .headertext {
     color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.headertext1 {
+    color: black;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
