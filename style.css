@@ -303,9 +303,9 @@ li a:hover {
     text-decoration: transparent;
     text-transform: uppercase;
     font-size: 10rem;
-    align-items: start;
+    align-items: center;
     position: relative;
-    border-radius: 10rem;
+    border-radius: 2rem;
     color: black;
     background-color: white;
     transition: 2s;

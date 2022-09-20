@@ -5,6 +5,7 @@ function scrollDown() {
   }
   function scrollUp() {
     window.scrollTo(0, 0);
+
   }
 
 function changeStyle(){
@@ -22,6 +23,18 @@ function changeStyle(){
   document.getElementById("top5").style.transition = "5s";
   document.getElementById("top6").style.marginBottom = "0rem";
   document.getElementById("top6").style.transition = "5s";
+  document.getElementById("bottom1").style.marginTop = "0rem";
+  document.getElementById("bottom1").style.transition = "5s";
+  document.getElementById("bottom2").style.marginTop = "0rem";
+  document.getElementById("bottom2").style.transition = "5s";
+  document.getElementById("bottom3").style.marginTop = "0rem";
+  document.getElementById("bottom3").style.transition = "5s";
+  document.getElementById("bottom4").style.marginTop = "0rem";
+  document.getElementById("bottom4").style.transition = "5s";
+  document.getElementById("bottom5").style.marginTop = "0rem";
+  document.getElementById("bottom5").style.transition = "5s";
+  document.getElementById("bottom6").style.marginTop = "0rem";
+  document.getElementById("bottom6").style.transition = "5s";
 }
 
 function changeBack(){
@@ -39,6 +52,18 @@ function changeBack(){
   document.getElementById("top5").style.transition = "5s";
   document.getElementById("top6").style.marginBottom = "10rem";
   document.getElementById("top6").style.transition = "5s";
+  document.getElementById("bottom1").style.marginTop = "10rem";
+  document.getElementById("bottom1").style.transition = "5s";
+  document.getElementById("bottom2").style.marginTop = "10rem";
+  document.getElementById("bottom2").style.transition = "5s";
+  document.getElementById("bottom3").style.marginTop = "10rem";
+  document.getElementById("bottom3").style.transition = "5s";
+  document.getElementById("bottom4").style.marginTop = "10rem";
+  document.getElementById("bottom4").style.transition = "5s";
+  document.getElementById("bottom5").style.marginTop = "10rem";
+  document.getElementById("bottom5").style.transition = "5s";
+  document.getElementById("bottom6").style.marginTop = "10rem";
+  document.getElementById("bottom6").style.transition = "5s";
 }
 
 function loaded(){
@@ -48,4 +73,10 @@ function loaded(){
   document.getElementById("top4").style.marginBottom = "10rem";
   document.getElementById("top5").style.marginBottom = "10rem";
   document.getElementById("top6").style.marginBottom = "10rem";
+  document.getElementById("bottom1").style.marginTop = "10rem";
+  document.getElementById("bottom2").style.marginTop = "10rem";
+  document.getElementById("bottom3").style.marginTop = "10rem";
+  document.getElementById("bottom4").style.marginTop = "10rem";
+  document.getElementById("bottom5").style.marginTop = "10rem";
+  document.getElementById("bottom6").style.marginTop = "10rem";
 }
