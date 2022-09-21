@@ -101,7 +101,6 @@ li a:hover {
     background-size: cover;
     border-style: solid;
     border-color: rgb(104, 104, 104);
-    margin-top: 11rem;
     height: 500px;
     width: 500px;
     margin-left: 8rem;
@@ -117,7 +116,6 @@ li a:hover {
 .card {
     min-height: 10rem;
     max-height: 30rem;
-    margin-left: 5rem;
 }
 
 
