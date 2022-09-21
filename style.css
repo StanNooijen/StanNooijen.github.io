@@ -71,18 +71,15 @@ li a:hover {
     text-align: center;
 }
 
-
 .Aboutme {
     margin-top: 15rem;
-    margin-left: 10rem;
     margin-bottom: 4rem;
     font-family: 'Titan One', cursive;
     font-size: 4rem;
 }
 
-.Aboutme1 {
+.WeakPoints{
     margin-top: 1rem;
-    margin-left: 10rem;
     margin-bottom: 1rem;
     font-family: 'Titan One', cursive;
     font-size: 4rem;
@@ -90,22 +87,24 @@ li a:hover {
 
 .Text {
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 10rem;
     font-size: 1.5rem;
 }
 
 .Text1 {
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 10rem;
     font-size: 1.5rem;
     margin-bottom: 18rem;
 }
 
 .img {
-    transform: scale(0.5);
-    margin-top: -8rem;
+    background-image: url('img/Stan.png');
+    background-size: cover;
     border-style: solid;
-    margin-left: -8rem;
+    border-color: rgb(104, 104, 104);
+    margin-top: 11rem;
+    height: 500px;
+    width: 500px;
+    margin-left: 8rem;
 }
 
 .projecten {
@@ -121,10 +120,6 @@ li a:hover {
     margin-left: 5rem;
 }
 
-.col-lg-5 {
-    background-color: rgb(182, 182, 182);
-    border-style: none;
-}
 
 .card-header {
     text-align: center;
@@ -165,10 +160,20 @@ li a:hover {
     font-size: 5rem;
     border-style: hidden;
     background-color: white;
-    margin-top: 4rem;
-    margin-bottom: 5rem;
-    margin-left: 25rem;
     background-color: transparent;
+    border-style: solid;
+    border-color: transparent;
+    margin-left: 7.5rem;
+}
+
+.arrow:hover {
+    transition: 1.5s;
+    font-size: 5rem;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-radius: 30rem;
+    margin-left: 7.5rem;
 }
 
 .arrow1 {
@@ -176,7 +181,6 @@ li a:hover {
     font-size: 5rem;
     border-style: hidden;
     background-color: white;
-    margin-left: 25rem;
     background-color: transparent;
     border-style: solid;
     border-color: transparent;
@@ -185,7 +189,6 @@ li a:hover {
 .arrow1:hover {
     transition: 1.5s;
     font-size: 5rem;
-    margin-left: 25rem;
     background-color: black;
     color: white;
     border-style: solid;
@@ -200,19 +203,6 @@ li a:hover {
     color: black;
     background-color: transparent;
     transition: 1.5s;
-}
-
-
-.arrow:hover {
-    transition: 1.5s;
-    font-size: 5rem;
-    margin-top: 4rem;
-    margin-bottom: 5rem;
-    margin-left: 25rem;
-    background-color: black;
-    color: white;
-    border-style: solid;
-    border-radius: 30rem;
 }
 
 .arrowUp:hover {
@@ -307,7 +297,7 @@ li a:hover {
     text-shadow: 1rem;
     border-width: 2px;
     transition: 5s;
-    font-size: 100%;
+    font-size: 140%;
     text-shadow: 1px 1px black;
 }
 
