@@ -80,18 +80,32 @@ li a:hover {
     font-size: 4rem;
 }
 
+.Aboutme1 {
+    margin-top: 1rem;
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+    font-family: 'Titan One', cursive;
+    font-size: 4rem;
+}
+
 .Text {
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 9rem;
-    margin-right: 11rem;
-    margin-top: 2rem;
+    margin-left: 10rem;
     font-size: 1.5rem;
+}
+
+.Text1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    margin-bottom: 18rem;
 }
 
 .img {
     transform: scale(0.5);
     margin-top: -8rem;
     border-style: solid;
+    margin-left: -8rem;
 }
 
 .projecten {
@@ -153,8 +167,29 @@ li a:hover {
     background-color: white;
     margin-top: 4rem;
     margin-bottom: 5rem;
-    margin-left: 19rem;
+    margin-left: 25rem;
     background-color: transparent;
+}
+
+.arrow1 {
+    align-self: center;
+    font-size: 5rem;
+    border-style: hidden;
+    background-color: white;
+    margin-left: 25rem;
+    background-color: transparent;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.arrow1:hover {
+    transition: 1.5s;
+    font-size: 5rem;
+    margin-left: 25rem;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-radius: 30rem;
 }
 
 .arrowUp {
@@ -167,12 +202,13 @@ li a:hover {
     transition: 1.5s;
 }
 
+
 .arrow:hover {
     transition: 1.5s;
     font-size: 5rem;
     margin-top: 4rem;
     margin-bottom: 5rem;
-    margin-left: 19rem;
+    margin-left: 25rem;
     background-color: black;
     color: white;
     border-style: solid;
@@ -366,7 +402,7 @@ li a:hover {
 .cross1 .diag3 {
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: 66%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 90% 100%);
     background: rgb(104, 104, 104);
     z-index: -100;
@@ -375,7 +411,7 @@ li a:hover {
 .cross1 .diag4 {
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: 66%;
     clip-path: polygon(0 0, 50% 0, 100% 100%, 90% 100%);
     background: rgb(160, 160, 160);
     z-index: -100;

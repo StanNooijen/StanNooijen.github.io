@@ -3,6 +3,9 @@
 function scrollDown() {
     window.scrollTo(0, 1200);
   }
+  function scrollDown1() {
+    window.scrollTo(0, 2400);
+  }
   function scrollUp() {
     window.scrollTo(0, 0);
 
