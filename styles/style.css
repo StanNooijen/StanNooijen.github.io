@@ -97,7 +97,7 @@ li a:hover {
 }
 
 .img {
-    background-image: url('img/Stan.png');
+    background-image: url('/img/Stan.png');
     background-size: cover;
     border-style: solid;
     border-color: rgb(104, 104, 104);
@@ -233,23 +233,23 @@ li a:hover {
 }
 
 .buttontop1 {
-    background-image: url('arcade/img/Arcade.png');
+    background-image: url('/pages/arcade/img/Arcade.png');
 }
 
 .buttontop2 {
-    background-image: url('processing/img/kirby.png');
+    background-image: url('/pages/processing/img/kirby.png');
 }
 
 .buttontop3 {
-    background-image: url('makey/img/makeymakeyimg2.jpg');
+    background-image: url('/pages/makey/img/makeymakeyimg1.jpg');
 }
 
 .buttontop4 {
-    background-image: url('agile/img/bappo.png');
+    background-image: url('/pages/agile/img/bappo.png');
 }
 
 .buttontop5 {
-    background-image: url('img/weatherapp.png');
+    background-image: url('/img/weatherapp.png');
 }
 
 .buttontop6 {
