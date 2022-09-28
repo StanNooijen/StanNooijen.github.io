@@ -112,6 +112,13 @@ li a:hover {
     height: 13rem;
     border-radius: 2rem;
 }
+
+.imgSize{
+    background-image: url('/pages/agile/img/door\ code.png');
+    background-size: cover;
+    height: 250px;
+}
+
 .projecten {
     font-family: 'Titan One', cursive;
     text-align: center;
