@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
 .example::-webkit-scrollbar {
     display: none;
 }
@@ -7,6 +8,30 @@
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
+}
+
+.btn1{
+font-family: Bebas Neue;
+font-weight: 574;
+font-size: 40px;
+color: #000000;
+background-color: #ffffff;
+padding: 10px 44px;
+border: none;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+border-radius: 0px 0px 50px 50px;
+transition : 0ms;
+transform: translateY(0);
+display: flex;
+flex-direction:row-reverse;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.btn1 :hover{
+    color: #efefef;
 }
 
 li {
