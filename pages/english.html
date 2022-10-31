@@ -1,55 +1,57 @@
 <!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <link href="/styles/style.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <meta charset="utf-8" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
 <head>
-  <link rel="icon" href="img/icon.png">
+  <link rel="icon" href="/img/icon.png">
   <title>Portfolio Stan Nooijen</title>
 </head>
 
 <body onload="loaded()" class="example noScroll cross1" style="z-index: 1;">
-  <ul class="topnav shadow p-3 mb-5 bg-body rounded">
-    <div class="diag3"></div>
-    <div class="diag4"></div>
-    <li class="fs-1 hmm">Stan Nooijen</li>
-    <li class="textNavbar"><a href="./english.html">Home</a></li>
-    <li class="textNavbar2" style="float: right;"><a href="../index.html">NL</a></li>
-    <li class="textNavbar2 active" style="float: right;"><a href="./english.html">Eng</a></li>
-  </ul>
+  <div>
+    <ul class="topnav shadow p-3 mb-5 bg-body rounded">
+      <div class="diag3"></div>
+      <div class="diag4"></div>
+      <li class="fs-1 hmm">Stan Nooijen</li>
+      <li class="textNavbar"><a href="./english.html">Home</a></li>
+      <li class="textNavbar2" style="float: right;"><a href="../index.html">NL</a></li>
+      <li class="textNavbar2 activet" style="float: right;"><a href="./english.html">Eng</a></li>
+    </ul>
 
-  <div class="container" style="height: 59.86rem;">
-    <div class="row">
-      <div class="col-lg-6" style="text-align: start;">
-        <H1 class="Aboutme">About me</H1>
-        <p class="Text">I am Stan Nooijen.
-          I am currently following Software Development at SintLucas.
-          I have worked with several coding languages, such as HTML, CSS, Javascript and C#. I am open to learning new
-          things.</p>
+    <div class="container SizeCon1">
+      <div class="row">
+        <div class="col-lg-6" style="text-align: start;">
+          <H1 class="headText">About me</H1>
+          <p class="Text">I am Stan Nooijen.
+            I am currently following Software Development at SintLucas.
+            I have worked with several coding languages, such as HTML, CSS, Javascript and C#. I am open to learning new
+            things.</p>
           <button onclick="scrollDown()" class="arrow"><i class="bi bi-arrow-down"></i></button>
         </div>
         <div class="col-xl-6 left" style="align-items: flex-start;">
-          <img class="img" >
+          <img class="img">
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container SizeCon2">
       <div class="row">
         <div class="col-lg-6" style="text-align: end;">
-          <H1 class="Aboutme">Sterkte punten</H1>
+          <H1 class="headText">Sterkte punten</H1>
           <div class="Text" style="height: 175px;">
             <p>1.</p>
             <p>2.</p>
             <p>3.</p>
           </div>
           <button onclick="scrollDown1(), changeStyle()" class="arrow1"><i class="bi bi-arrow-down"></i></button>
-            <H1 class="WeakPoints">Zwakte punten</H1>
+          <H1 class="headText">Zwakte punten</H1>
           <div class="Text1" style="height: 100px;">
             <p>1.</p>
             <p>2.</p>
@@ -66,13 +68,14 @@
         </div>
       </div>
     </div>
-    <section class="selected">
+    <section class="selected SizeCon3">
       <div class="container-fluid containerStyle">
         <div class="row justify-content-md-center text-center row-links row-links-top topPadding">
           <a id="top1" href="./arcade/arcade_eng.html" class="col buttonstyle buttontop1" style="height: 12rem;">
             <p>1 player platformer</p>
           </a>
-          <a id="top2" href="./processing/processing_eng.html" class="col buttonstyle buttontop2" style="height: 22.8rem;">
+          <a id="top2" href="./processing/processing_eng.html" class="col buttonstyle buttontop2"
+            style="height: 22.8rem;">
             <p>kirby</p>
           </a>
           <a id="top3" href="./makey/makey_eng.html" class="col buttonstyle buttontop3" style="height: 17rem;">
@@ -81,10 +84,12 @@
           <a id="top4" href="./agile/agile_eng.html" class="col buttonstyle buttontop4" style="height: 14.5rem;">
             <p>group platformer</p>
           </a>
-          <a id="top5" href="./weatherapp/weatherapp_eng.html" class="col buttonstyle buttontop5" style="height: 19rem;">
+          <a id="top5" href="./weatherapp/weatherapp_eng.html" class="col buttonstyle buttontop5"
+            style="height: 19rem;">
             <p>Covid App</p>
           </a>
-          <a id="top6" href="./howToPlant/how_to_plant_eng.html" class="col buttonstyle buttontop6" style="height: 13rem;">
+          <a id="top6" href="./howToPlant/how_to_plant_eng.html" class="col buttonstyle buttontop6"
+            style="height: 13rem;">
             <p>test</p>
           </a>
         </div>
@@ -120,6 +125,7 @@
             <p>test</p>
           </a>
         </div>
+      </div>
     </section>
   </div>
 </body>
