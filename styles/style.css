@@ -60,6 +60,7 @@ li a:hover {
 
 
 .topnav {
+    background-color: white;
     margin-top: 0.1rem;
     overflow: hidden;
 }
@@ -109,7 +110,12 @@ li a:hover {
 }
 
 .placeMiddle{
-    padding-top: 12rem;
+    padding-top: 15rem;
+}
+
+.placeBottom{
+    padding-top: 22rem;
+    margin-bottom: 10rem;
 }
 
 .card {
@@ -158,8 +164,8 @@ li a:hover {
 }
 
 .headertext {
-    background-color: black; 
-    border-radius: 3rem;
+    background-color: black !important; 
+    border-radius: 3rem !important;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -167,15 +173,6 @@ li a:hover {
 .Alltext {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.3rem;
-}
-
-.color {
-    background-color: black;
-}
-
-.align {
-    text-align: left;
-    margin-left: 0.8rem;
 }
 
 .arrow {
@@ -200,6 +197,9 @@ li a:hover {
 }
 
 .arrow1 {
+    margin-left: -53rem;
+    margin-top: -4rem;
+    position: absolute;
     align-self: center;
     font-size: 5rem;
     border-style: hidden;
@@ -219,19 +219,22 @@ li a:hover {
 }
 
 .arrowUp {
-    font-size: 10rem;
+    margin-top: -13rem;
+    margin-left: -13rem;
+    font-size: 5rem;
     transform: rotate(180deg);
     border-style: hidden;
     color: black;
     background-color: transparent;
     transition: 1.5s;
+    position: absolute;
 }
 
 .arrowUp:hover {
     background-color: black;
     color: white;
     transition: 1.5s;
-    font-size: 10rem;
+    font-size: 5rem;
     transform: rotate(540deg);
     border-radius: 30rem;
 }
@@ -249,125 +252,6 @@ li a:hover {
     background-size: cover;
     text-decoration: none;
     margin-top: 1rem;
-}
-
-.buttontop1 {
-    background-image: url('/pages/arcade/img/Arcade.png');
-    background-color: grey;
-}
-
-.buttontop2 {
-    background-image: url('/pages/processing/img/kirby.png');
-    background-color: grey;
-}
-
-.buttontop3 {
-    background-image: url('/pages/makey/img/makeymakeyimg1.jpg');
-    background-color: grey;
-}
-
-.buttontop4 {
-    background-image: url('/pages/agile/img/bappo.png');
-    background-color: grey;
-}
-
-.buttontop5 {
-    background-image: url('/img/weatherapp.png');
-    background-color: grey;
-}
-
-.buttontop6 {
-    background-image: url('');
-    background-color: grey;
-}
-
-.buttonbottom1 {
-    background-image: url('');
-}
-
-.buttonbottom2 {
-    background-image: url('');
-}
-
-.buttonbottom3 {
-    background-image: url('');
-}
-
-.buttonbottom4 {
-    background-image: url('');
-}
-
-.buttonbottom5 {
-    background-image: url('');
-}
-
-.buttonbottom6 {
-    background-image: url('');
-}
-
-.row-links a {
-    z-index: 0;
-    height: 100px;
-    background-color: black;
-    font-size: 0%;
-    border-width: 2px;
-}
-
-.row-links a:hover {
-    background-color: black;
-    color: white;
-    opacity: 70%;
-    text-shadow: 1rem;
-    border-width: 2px;
-    transition: 5s;
-    font-size: 140%;
-    text-shadow: 1px 1px black;
-}
-
-.row-links-top a:nth-child(even) {
-    height: 150px;
-}
-
-.row-links-bottom a:nth-child(odd) {
-    height: 150px;
-}
-
-.row-links-bottom {
-    align-items: flex-end;
-}
-
-.works__title {
-    z-index: 100;
-    width: 100%;
-    text-decoration: transparent;
-    text-transform: uppercase;
-    font-size: 10rem;
-    align-items: start;
-    position: relative;
-    color: rgb(0, 0, 0);
-    transition: 2s;
-}
-
-.works__title:hover {
-    z-index: 100;
-    width: 100%;
-    text-decoration: transparent;
-    text-transform: uppercase;
-    font-size: 10rem;
-    align-items: center;
-    position: relative;
-    border-radius: 2rem;
-    color: white;
-    background-color: black;
-    transition: 2s;
-}
-
-.works__title>span {
-    grid-area: 1 / 1 / -1 / -1;
-}
-
-.works__title .oh {
-    line-height: 0.7;
 }
 
 .noScroll {
@@ -485,29 +369,4 @@ section:hover h3 {
 
 /*tablet*/
 @media (max-width: 1024px) {
-    .works__title {
-        z-index: 100;
-        size: 50%;
-        text-decoration: transparent;
-        text-transform: uppercase;
-        font-size: 5rem;
-        align-items: start;
-        position: relative;
-        color: rgb(0, 0, 0);
-        transition: 2s;
-    }
-
-    .works__title:hover {
-        z-index: 100;
-        size: 50%;
-        text-decoration: transparent;
-        text-transform: uppercase;
-        font-size: 5rem;
-        align-items: center;
-        position: relative;
-        border-radius: 2rem;
-        color: white;
-        background-color: black;
-        transition: 2s;
-    }
 }
