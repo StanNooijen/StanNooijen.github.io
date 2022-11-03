@@ -302,20 +302,22 @@ section h3 {
 
 .img1 {
     background: url("/pages/agile/img/door\ code.png") no-repeat left/cover;
+    background-size: 60vw 60vw;
 }
 
 .img2 {
     background: url("/pages/agile/img/keyCode.png") no-repeat left/cover;
+    background-size: 60vw 60vw;
 }
 
 .img3 {
     background: url("/pages/agile/img/platform\ code.png") no-repeat left/cover;
+    background-size: 60vw 60vw;
 }
 
 .img4 {
     background: url("/pages/agile/img/JumpBoost.png") no-repeat left/cover;
     background-size: 60vw 52vw;
-    
 }
 
 main {
