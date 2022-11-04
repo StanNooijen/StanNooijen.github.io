@@ -34,15 +34,16 @@
           <p class="Text">Ik ben Stan Nooijen. Momenteel volg ik Software Ontwikkeling bij SintLucas.
             Ik heb gewerkt met verschillende codeertalen, zoals HTML, CSS, Javascript en C#. Ik sta open om nieuwe
             dingen te leren.</p>
-          <button onclick="scrollDown()" class="arrow"><i class="bi bi-arrow-down"></i></button>
+          <button onclick="scrollDown()" id="arrowOne" class="arrow"><i class="bi bi-arrow-down"></i></button>
         </div>
-        <div class="col-lg-6 left" style="align-items: flex-start;">
+        <div class="col-lg-6" style="align-items: flex-start;">
           <img class="img">
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row placeMiddle">
+        <div class="col-lg-1" id="arrowTwo"><button onclick="scrollDown1()" class="arrow1"><i class="bi bi-arrow-down"></i></button></div>
         <div class="col-lg-6" style="text-align: end;">
           <H1 class="headText">Sterkte punten</H1>
           <div class="Text" style="height: 175px;">
@@ -50,7 +51,6 @@
             <p>2.</p>
             <p>3.</p>
           </div>
-          <button onclick="scrollDown1()" class="arrow1"><i class="bi bi-arrow-down"></i></button>
           <H1 class="headText">Zwakte punten</H1>
           <div class="Text" style="height: 100px;">
             <p>1.</p>
@@ -58,7 +58,7 @@
             <p>3.</p>
           </div>
         </div>
-        <div class="col-lg-6" style="text-align: end;">
+        <div class="col-lg-5" style="text-align: end;">
           <H1 class="Aboutme">Experience</H1>
           <p class="Text">HTML</p>
           <p class="Text">CSS</p>
@@ -70,30 +70,32 @@
     </div>
     <div class="container placeBottom">
       <div class="row" style="column-gap: 1%;">
-        <div class="col-lg-8 card p-3 mb-5 bg-body rounded" id="leftCards" style="width: 65% !important;">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-7 card p-3 mb-5 bg-body rounded" id="leftCards" >
           <div class="card-body Alltext">In dit project hebben we een endless runner game gemaakt.
           </div>
           <a class="Alltext" href="pages/arcade/arcade.html">learn more..</a>
         </div>
-        <div class="col-lg-4 placeBottomImg1" id="rightImage" style="width: 34% !important;">
+        <div class="col-lg-3 placeBottomImg1" id="rightImage">
         </div>
-        <div class="col-lg-4 placeBottomImg2" id="leftImage" style="width: 34% !important;">
+        <div class="col-lg-1" id="arrowThree"><button onclick="scrollUp()"class="arrowUp"><i class="bi bi-arrow-down"></i></button></div>
+        <div class="col-lg-3 placeBottomImg2" id="leftImage">
         </div>
-        <div class="col-lg-8 card p-3 mb-5 bg-body rounded" id="rightCards" style="text-align: end; width: 65% !important;">
+        <div class="col-lg-7 card p-3 mb-5 bg-body rounded" id="rightCards" style="text-align: end;">
           <div class="card-body Alltext" style="text-align: end;">in dit project heb ik een webshop gemaakt met
             javascript en html en css.
           </div>
           <a class="Alltext" href="pages/webshop/webshop.html">learn more..</a>
         </div>
       </div>
-      <button onclick="scrollUp()" class="arrowUp"><i class="bi bi-arrow-down"></i></button>
-      <div class="row "style="column-gap: 1%;">
-        <div class="col-lg-8 card p-3 mb-5 bg-body rounded" id="leftCardsTwo" style="width: 65% !important;">
+      <div class="row "style="column-gap: 1%;" style="text-align: end;">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-7 card p-3 mb-5 bg-body rounded" id="leftCardsTwo">
           <div class="card-body Alltext">Hier heb ik met processing gewerkt en heb ik een paar kleine dingen gemaakt.
           </div>
-          <a class="Alltext" href="pages/makey/makey.html">learn more..</a>
+          <a class="Alltext" href="pages/processing/processing.html">learn more..</a>
         </div>
-        <div class="col-lg-4 placeBottomImg3" id="rightImageTwo" style="width: 34% !important;">
+        <div class="col-lg-3 placeBottomImg3" id="rightImageTwo">
         </div>
       </div>
       <button class="btnBottom">More Projects</button>

@@ -4,13 +4,14 @@ const secAdd = 2;
 const allIds = ['leftCards', 'rightCards', 'leftCardsTwo', 'rightImage', 'leftImage', 'rightImageTwo'];
 const leftIds = ['leftCards', 'leftCardsTwo', 'leftImage'];
 const rightIds = ['rightCards', 'rightImage', 'rightImageTwo'];
+const arrows = ['arrowOne', 'arrowTwo', 'arrowThree'];
 let panels = document.querySelectorAll(".panel");
 let sections = document.querySelectorAll("section");
 let slides = document.querySelectorAll(".slide");
 
 function scrollDown() {
   window.scrollTo(0, 800);
-  
+
 }
 function scrollDown1() {
   window.scrollTo(0, 1700);
@@ -36,7 +37,6 @@ function scrollUp() {
     document.getElementById(rightIds[i]).style.transform = "translateX(100%)";
   }
 }
-
 function loaded() {
   for (var i = 0; i < leftIds.length; i++) {
     document.getElementById(leftIds[i]).style.opacity = "0";

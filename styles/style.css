@@ -11,53 +11,54 @@
     /* Firefox */
 }
 
-.btn1{
-font-family: Bebas Neue;
-font-weight: 574;
-font-size: 40px;
-color: #000000;
-background-color: #ffffff;
-padding: 10px 44px;
-border: none;
-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-border-radius: 0px 0px 50px 50px;
-transition : 0ms;
-transform: translateY(0);
-flex-direction:row-reverse;
-align-items: center;
-cursor: pointer;
-text-transform: uppercase;
-text-decoration: none;
+.btn1 {
+    font-family: Bebas Neue;
+    font-weight: 574;
+    font-size: 40px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 44px;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 0px 0px 50px 50px;
+    transition: 0ms;
+    transform: translateY(0);
+    flex-direction: row-reverse;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.btnBottom{
-
-font-family: Bebas Neue;
-font-weight: 0;
-font-size: 25px;
-color: #fff;
-background-color: #000000;
-padding: 10px 50px;
-border: solid #ffffff 2px;
-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-border-radius: 50px 50px 0px 0px;
-transition : 1000ms;
-transform: translateY(0);
-display: flex;
-flex-direction: row;
-align-items: center;
-cursor: pointer;
-text-transform: uppercase;
+.btnBottom {
+    margin-left: 32rem;
+    margin-bottom: -15rem;
+    font-family: Bebas Neue;
+    font-weight: 0;
+    font-size: 25px;
+    color: #fff;
+    background-color: #000000;
+    padding: 10px 50px;
+    border: solid #ffffff 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
+    transition: 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
-.btn:hover{
+.btn:hover {
 
-transition : 1000ms;
-padding: 10px 50px;
-transform : translateY(-0px);
-background-color: #ffffff;
-color: #000000;
-border: solid 2px #000000;
+    transition: 1000ms;
+    padding: 10px 50px;
+    transform: translateY(-0px);
+    background-color: #ffffff;
+    color: #000000;
+    border: solid 2px #000000;
 }
 
 
@@ -135,15 +136,15 @@ li a:hover {
     font-size: 1.5rem;
 }
 
-.placeTop{
+.placeTop {
     padding-top: 10rem;
 }
 
-.placeMiddle{
+.placeMiddle {
     padding-top: 15rem;
 }
 
-.placeBottom{
+.placeBottom {
     padding-top: 22rem;
     margin-bottom: 10rem;
 }
@@ -194,7 +195,7 @@ li a:hover {
 }
 
 .headertext {
-    background-color: black !important; 
+    background-color: black !important;
     border-radius: 3rem !important;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
@@ -227,9 +228,7 @@ li a:hover {
 }
 
 .arrow1 {
-    margin-left: -53rem;
-    margin-top: -4rem;
-    position: absolute;
+    margin-top: 10rem;
     align-self: center;
     font-size: 5rem;
     border-style: hidden;
@@ -249,15 +248,14 @@ li a:hover {
 }
 
 .arrowUp {
-    margin-top: -13rem;
-    margin-left: -13rem;
+    margin-top: 3rem;
+    margin-left: -3rem;
     font-size: 5rem;
     transform: rotate(180deg);
     border-style: hidden;
     color: black;
     background-color: transparent;
     transition: 1.5s;
-    position: absolute;
 }
 
 .arrowUp:hover {
@@ -296,7 +294,7 @@ li a:hover {
     position: relative;
     background: #efefef;
     z-index: -100;
-    filter: blur(0px);
+    filter: blur(2px);
 }
 
 .cross .diag1 {
@@ -331,24 +329,27 @@ section h3 {
     transition: all 0.3s ease-out 1s;
 }
 
-.placeBottomImg1{
+.placeBottomImg1 {
     background-image: url('/pages/agile/img/bappo.png');
     background-size: cover;
+    background-position: center;
     height: 208px;
     width: 208px;
     border-radius: 0.5rem;
 }
 
-.placeBottomImg2{
+.placeBottomImg2 {
     background-image: url('/pages/webshop/images/Hammer.jfif');
     background-size: cover;
+    background-position: center;
     height: 208px;
     width: 208px;
     border-radius: 0.5rem;
 }
 
-.placeBottomImg3{
+.placeBottomImg3 {
     background-size: cover;
+    background-position: center;
     height: 208px;
     width: 208px;
     background-image: url('/pages/processing/img/kirby.png');
@@ -389,7 +390,8 @@ main {
     position: relative;
     display: flex;
 }
-section.slide:hover{
+
+section.slide:hover {
     border-radius: 1rem;
     width: 60vw;
     justify-content: center;
@@ -417,13 +419,25 @@ section:hover h3 {
     color: #fff;
     font-size: 30px;
     letter-spacing: 0.1em;
-  }
+}
 
 
 /*phone*/
-@media (max-width: 320px) {
+@media (max-width: 420px) {
 }
 
 /*tablet*/
-@media (max-width: 1025px) {
+@media (max-width: 1200px) {
+    .placeTop {
+        padding-top: 5rem;
+    }
+    
+    .placeMiddle {
+        padding-top: 10rem;
+    }
+    
+    .placeBottom {
+        padding-top: 3rem;
+        margin-bottom: 10rem;
+    }
 }
