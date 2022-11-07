@@ -294,7 +294,7 @@ li a:hover {
     position: relative;
     background: #efefef;
     z-index: -100;
-    filter: blur(2px);
+    filter: blur(0px);
 }
 
 .cross .diag1 {
@@ -423,11 +423,14 @@ section:hover h3 {
 
 
 /*phone*/
-@media (max-width: 420px) {
+@media screen and (max-width: 420px) {
+    .Text {
+        font-size: 20rem;
+    }
 }
 
 /*tablet*/
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .placeTop {
         padding-top: 5rem;
     }
