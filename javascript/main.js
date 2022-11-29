@@ -1,7 +1,7 @@
 document.documentElement.scrollTop = 0;
 document.body.scrollTop = 0;
 const secAdd = 2;
-const allIds = ['leftCards', 'rightCards', 'leftCardsTwo', 'rightImage', 'leftImage', 'rightImageTwo'];
+const allIds = ['leftCards', 'rightCards', 'leftCardsTwo', 'rightImage', 'leftImage', 'rightImageTwo', 'arrowThree'];
 const leftIds = ['leftCards', 'leftCardsTwo', 'leftImage'];
 const rightIds = ['rightCards', 'rightImage', 'rightImageTwo'];
 const arrows = ['arrowOne', 'arrowTwo', 'arrowThree'];
@@ -25,9 +25,12 @@ function scrollDown1() {
   document.getElementById("rightCards").style.transition = "4s";
   document.getElementById("leftCardsTwo").style.transition = "6s";
   document.getElementById("rightImageTwo").style.transition = "6s";
+  document.getElementById("arrowThree").style.transition = "4s";
 }
 function scrollUp() {
   window.scrollTo(0, 0);
+  document.getElementById("arrowThree").style.opacity = "0";
+  document.getElementById("arrowThree").style.transform = "translateX(-300%)";
   for (var i = 0; i < leftIds.length; i++) {
     document.getElementById(leftIds[i]).style.opacity = "0";
     document.getElementById(leftIds[i]).style.transform = "translateX(-100%)";
@@ -38,6 +41,8 @@ function scrollUp() {
   }
 }
 function loaded() {
+  document.getElementById("arrowThree").style.opacity = "0";
+  document.getElementById("arrowThree").style.transform = "translateX(-300%)";
   for (var i = 0; i < leftIds.length; i++) {
     document.getElementById(leftIds[i]).style.opacity = "0";
     document.getElementById(leftIds[i]).style.transform = "translateX(-100%)";
