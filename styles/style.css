@@ -103,10 +103,6 @@ li a:hover {
     font-family: 'Titan One', cursive;
 }
 
-.hmm:hover {
-    background-color: white;
-}
-
 .textNavbar {
     margin-top: 0.8rem;
     margin-left: 1rem;
@@ -357,22 +353,22 @@ section h3 {
     border-radius: 0.5rem;
 }
 
-.img1 {
+.agileimg1 {
     background: url("/pages/agile/img/door\ code.png") no-repeat left/cover;
     background-size: 60vw 60vw;
 }
 
-.img2 {
+.agileimg2 {
     background: url("/pages/agile/img/keyCode.png") no-repeat left/cover;
     background-size: 60vw 60vw;
 }
 
-.img3 {
+.agileimg3 {
     background: url("/pages/agile/img/platform\ code.png") no-repeat left/cover;
     background-size: 60vw 60vw;
 }
 
-.img4 {
+.agileimg4 {
     background: url("/pages/agile/img/JumpBoost.png") no-repeat left/cover;
     background-size: 60vw 52vw;
 }
@@ -421,6 +417,7 @@ section:hover h3 {
     font-size: 30px;
     letter-spacing: 0.1em;
 }
+
 
 
 /*phone*/
