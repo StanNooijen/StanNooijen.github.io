@@ -173,6 +173,8 @@ li a:hover {
 .topImg {
     background-image: url('/pages/agile/img/bappoText.png');
     background-size: cover;
+    justify-content: center;
+    display: flex;
     height: 13rem;
     border-radius: 2rem;
 }
@@ -355,30 +357,27 @@ section h3 {
 
 .agileimg1 {
     background: url("/pages/agile/img/door\ code.png") no-repeat left/cover;
-    background-size: 60vw 60vw;
+    background-size: 80vw 80vw;
 }
 
 .agileimg2 {
     background: url("/pages/agile/img/keyCode.png") no-repeat left/cover;
-    background-size: 60vw 60vw;
+    background-size: 80vw 80vw;
 }
 
 .agileimg3 {
     background: url("/pages/agile/img/platform\ code.png") no-repeat left/cover;
-    background-size: 60vw 60vw;
+    background-size: 80vw 80vw;
 }
 
 .agileimg4 {
     background: url("/pages/agile/img/JumpBoost.png") no-repeat left/cover;
-    background-size: 60vw 52vw;
+    background-size: 110vw 80vw;
 }
 
 main {
-    margin: auto;
-    margin-top: 30px;
+
     display: flex;
-    width: 90vw;
-    height: 100;
     justify-content: center;
     align-items: center;
 }
@@ -386,6 +385,7 @@ main {
 .gallery-container {
     position: relative;
     display: flex;
+    justify-self: center;
 }
 
 section.slide:hover {
@@ -393,14 +393,14 @@ section.slide:hover {
     width: 60vw;
     justify-content: center;
     align-items: center;
-    height: 1000px;
+    height: 80vw;
     overflow: visible;
 }
 
 section.slide {
     border-radius: 1rem;
     margin-left: 0.5rem;
-    height: 1000px;
+    height: 80vw;
     width: 12vw;
     cursor: pointer;
     transition: all 0.3s ease-in;
@@ -422,8 +422,8 @@ section:hover h3 {
 
 /*phone*/
 @media screen and (max-width: 420px) {
-    .Text {
-        font-size: 20rem;
+    body{
+        font-size: 30px;
     }
 }
 
