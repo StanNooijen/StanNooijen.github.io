@@ -16,6 +16,48 @@ body{
     background-color: rgb(235, 245, 248);
 }
 
+#cookiePopup{
+    background-color: #ffffff;
+    position: absolute;
+    font-size: 14px;
+    width: 70vw;
+    max-width: 42em;
+    box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    line-height: 1.8em;
+    padding: 2em 1.4em;
+    border-radius: 6px;
+    transition: all 0.5s ease-in;
+}
+
+#cookiePopup a{
+    color: #6859fe;
+}
+
+#cookiePopup button{
+    background-color: #6859fe;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 1em 1.4em;
+    display: block;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.hide{
+    visibility: hidden;
+    bottom:  0;
+    right: 2em;
+}
+.show{
+    visibility: visible;
+    bottom:  2em;
+    right: 2em;
+}
+
 .nav-list{
     height: 2rem;
     background: white;
@@ -40,9 +82,11 @@ body{
 }
 
 .nav-item a:hover{
-    border-radius: 30px;
-    color: rgb(100, 100, 100);
-    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    color: rgb(10, 10, 10);
+    background-color: rgb(120, 20, 250);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .nav-item:first-child{
@@ -54,6 +98,22 @@ body{
     margin-left: 0.5rem;
 }
 
+.centered{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+.row{
+    margin: 0rem 0rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.col{
+    flex: 1 1 50%;
+    justify-content: center;
+}
 
 .titles{
     font-family: 'Courier New', Courier, monospace;
@@ -119,12 +179,18 @@ body{
 }
 
 .cardMiddle{
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
     font-size: 1.1rem;
-    margin-left: 0.5rem;
-
 }
 
+.img {
+    background-image: url('/img/Stan.png');
+    border-style: solid;
+    background-size: cover;
+    border-color: rgb(104, 104, 104);
+    width: 21.3rem;
+    height: 21.3rem;
+}
 
 
 
@@ -215,15 +281,6 @@ body{
     margin-bottom: 10rem;
 }
 
-
-.img {
-    background-image: url('/img/Stan.png');
-    background-size: cover;
-    border-style: solid;
-    border-color: rgb(104, 104, 104);
-    height: 500px;
-    width: 500px;
-}
 
 .topImg {
     background-image: url('/pages/agile/img/bappoText.png');
@@ -528,7 +585,7 @@ section:hover h3 {
 /*tablet*/
 @media screen and (min-width: 1280px) {
     body{
-        font-size: 14px;
+        font-size: 18px;
     }
     
     .nav-item{
@@ -539,11 +596,22 @@ section:hover h3 {
     }
 
     .bigCard{
-        flex: 0 1 calc(25% - 1em);
+        flex: 0 1 calc(50% - 1em);
+    }
+
+    .centered{
+        display: flex;
+        margin: 0rem 9rem 0rem 9rem;
     }
 
     .smallCard{
         flex: 0 1 32%;
         border-radius: 15px;
+    }
+
+    .row{
+        margin: 10rem 0rem 10rem 10rem;
+        display: flex;
+        flex-direction: column;
     }
 }

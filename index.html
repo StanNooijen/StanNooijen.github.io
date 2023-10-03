@@ -2,8 +2,6 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <link rel="stylesheet" href="styles/style.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 <meta charset="utf-8" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,52 +11,60 @@
 
 <head>
   <link rel="icon" href="img/icon.png">
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
   <title>Portfolio Stan Nooijen</title>
 </head>
 
-<body onload="loaded()" class="example noScroll cross" style="z-index: 1;">
+<body class="example">
+  <div id="cookiePopup" class="show">
+    <p>
+      Our website uses cookies to provide your browsing experience and relevant infomation. 
+      before continuing to use our
+      website, you agree & accept of our <a href="https://www.cookiepolicygenerator.com/live.php?token=nS8W2eiIXly5mjJ0Td4NZwmrbB8CuJWU">Cookie Policy & Privacy</a>
+    </p>
+    <button id="acceptCookie">
+      Accept
+    </button>
+  </div>
   <div>
-    <ul class="topnav shadow p-3 mb-5 bg-body rounded">
-      <div class="diag1"></div>
-      <div class="diag2"></div>
-      <li class="fs-1 hmm">Stan Nooijen</li>
-      <li class="textNavbar"><a href="index.html">Home</a></li>
-      <li class="textNavbar2 activet" style="float: right;"><a href="index.html">NL</a></li>
-      <li class="textNavbar2" style="float: right;"><a href="pages/english.html">Eng</a></li>
+    <ul class="nav-list">
+      <li class="nav-item"><a href="index.html">Stan Nooijen</a></li>
+      <li class="nav-item"><a href="pages/werk.html">creations</a></li>
+      <li class="nav-item"><a href="index.html">NL</a></li>
+      <li class="nav-item"><a href="pages/english.html">Eng</a></li>
     </ul>
-
-    <div class="container">
-      <div class="row placeTop">
-        <div class="col-lg-6" style="text-align: start;">
-          <H1 class="headText">About me</H1>
-          <p class="Text">Ik ben Stan Nooijen. Momenteel volg ik Software Ontwikkeling bij SintLucas.
+    <div class="centered">
+      <div class="row">
+        <div class="col">
+          <H1 class="">About me</H1>
+          <p>Ik ben Stan Nooijen. Momenteel volg ik Software Ontwikkeling bij SintLucas.
             Ik heb gewerkt met verschillende codeertalen, zoals HTML, CSS, Javascript en C#. Ik sta open om nieuwe
             dingen te leren.</p>
-          <button onclick="scrollDown()" id="arrowOne" class="arrow"><i class="bi bi-arrow-down"></i></button>
         </div>
-        <div class="col-lg-6" style="align-items: flex-start;">
+        <div class="col">
           <img class="img">
         </div>
+        <!-- <button onclick="scrollDown()" id="arrowOne" class="arrow"><i class="bi bi-arrow-down"></i></button> -->
       </div>
     </div>
-    <div class="container">
-      <div class="row placeMiddle">
-        <div class="col-lg-1" id="arrowTwo"><button onclick="scrollDown1()" class="arrow1"><i class="bi bi-arrow-down"></i></button></div>
-        <div class="col-lg-6" style="text-align: end;">
+    <!-- <div class="centered">
+      <div class="row">
+        <div id="arrowTwo"><button onclick="scrollDown1()" class="arrow1"><i class="bi bi-arrow-down"></i></button></div>
+        <div style="text-align: end;">
           <H1 class="headText">Sterkte punten</H1>
-          <div class="Text" style="height: 175px;">
+          <div>
             <p>1.</p>
             <p>2.</p>
             <p>3.</p>
           </div>
           <H1 class="headText">Zwakte punten</H1>
-          <div class="Text" style="height: 100px;">
+          <div>
             <p>1.</p>
             <p>2.</p>
             <p>3.</p>
           </div>
         </div>
-        <div class="col-lg-5" style="text-align: end;">
+        <div>
           <H1 class="Aboutme">Experience</H1>
           <p class="Text">HTML</p>
           <p class="Text">CSS</p>
@@ -67,11 +73,11 @@
           <p class="Text">python</p>
         </div>
       </div>
-    </div>
-    <div class="container placeBottom">
-      <div class="row" style="column-gap: 1%;">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-7 card p-3 mb-5 bg-body rounded" id="leftCards" >
+    </div> -->
+    <!-- <div class="centered">
+      <div class="row">
+        <div ></div>
+        <div>
           <div class="card-body Alltext">In dit project hebben we een endless runner game gemaakt.
           </div>
           <a class="Alltext" href="/pages/Play/play.html">learn more..</a>
@@ -100,10 +106,8 @@
       </div>
       <a href="pages/werk.html" class="Alltext"><button class="btnBottom">More Projects</button></a>
     </div>
-  </div>
+  </div> -->
 </body>
 <script src="./javascript/main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </html>
