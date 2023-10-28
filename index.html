@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<link rel="stylesheet" href="styles/style.css">
 <meta charset="utf-8" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-
+<link rel="stylesheet" href="/styles/style.css">
 <head>
   <link rel="icon" href="img/icon.png">
   <meta name="viewport" content="width=device-width, user-scalable=no" />
@@ -16,64 +10,65 @@
 </head>
 
 <body class="example">
-  <div id="cookiePopup" class="show">
-    <p>
-      Our website uses cookies to provide your browsing experience and relevant infomation. 
-      before continuing to use our
-      website, you agree & accept of our <a href="https://www.cookiepolicygenerator.com/live.php?token=nS8W2eiIXly5mjJ0Td4NZwmrbB8CuJWU">Cookie Policy & Privacy</a>
-    </p>
-    <button id="acceptCookie">
-      Accept
-    </button>
-  </div>
+<!--  <div id="cookiePopup" class="show">-->
+<!--    <p>-->
+<!--      Our website uses cookies to provide your browsing experience and relevant infomation. -->
+<!--      before continuing to use our-->
+<!--      website, you agree & accept of our <a href="https://www.cookiepolicygenerator.com/live.php?token=nS8W2eiIXly5mjJ0Td4NZwmrbB8CuJWU">Cookie Policy & Privacy</a>-->
+<!--    </p>-->
+<!--    <button id="acceptCookie">-->
+<!--      Accept-->
+<!--    </button>-->
+<!--  </div>-->
   <div>
     <ul class="nav-list">
-      <li class="nav-item"><a href="index.html">Stan Nooijen</a></li>
-      <li class="nav-item"><a href="pages/werk.html">creations</a></li>
+      <li class="nav-item">Stan Nooijen</li>
+      <li class="nav-item"><a href="pages/werk.html">pages</a></li>
+      <li class="nav-item"><a href="index.html">Home</a></li>
+      <li class="nav-item"><a onclick="About">About</a></li>
       <li class="nav-item"><a href="index.html">NL</a></li>
       <li class="nav-item"><a href="pages/english.html">Eng</a></li>
     </ul>
-    <div class="centered">
+    <div class="container">
+      <H1 class="Aboutme">About me</H1>
       <div class="row">
         <div class="col">
-          <H1 class="">About me</H1>
           <p>Ik ben Stan Nooijen. Momenteel volg ik Software Ontwikkeling bij SintLucas.
             Ik heb gewerkt met verschillende codeertalen, zoals HTML, CSS, Javascript en C#. Ik sta open om nieuwe
             dingen te leren.</p>
         </div>
         <div class="col">
-          <img class="img">
+        <img class="img">
         </div>
-        <!-- <button onclick="scrollDown()" id="arrowOne" class="arrow"><i class="bi bi-arrow-down"></i></button> -->
       </div>
     </div>
-    <!-- <div class="centered">
+  </div>
+    <div class="container">
       <div class="row">
-        <div id="arrowTwo"><button onclick="scrollDown1()" class="arrow1"><i class="bi bi-arrow-down"></i></button></div>
-        <div style="text-align: end;">
-          <H1 class="headText">Sterkte punten</H1>
+        <div class="col">
+          <H1>Sterkte punten</H1>
           <div>
             <p>1.</p>
             <p>2.</p>
             <p>3.</p>
           </div>
-          <H1 class="headText">Zwakte punten</H1>
+          <H1>Zwakte punten</H1>
           <div>
             <p>1.</p>
             <p>2.</p>
             <p>3.</p>
           </div>
         </div>
-        <div>
+        <div class="col">
           <H1 class="Aboutme">Experience</H1>
           <p class="Text">HTML</p>
           <p class="Text">CSS</p>
           <p class="Text">JavaScript</p>
           <p class="Text">C#</p>
-          <p class="Text">python</p>
+          <p class="Text">java</p>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- <div class="centered">
       <div class="row">
         <div ></div>

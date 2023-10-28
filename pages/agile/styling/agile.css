@@ -1,0 +1,62 @@
+.agileimg1 {
+    background: url("/pages/agile/img/door\ code.png") no-repeat left/cover;
+    background-size: 80vw 80vw;
+}
+
+.agileimg2 {
+    background: url("/pages/agile/img/keyCode.png") no-repeat left/cover;
+    background-size: 80vw 80vw;
+}
+
+.agileimg3 {
+    background: url("/pages/agile/img/platform\ code.png") no-repeat left/cover;
+    background-size: 80vw 80vw;
+}
+
+.agileimg4 {
+    background: url("/pages/agile/img/JumpBoost.png") no-repeat left/cover;
+    background-size: 110vw 80vw;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container {
+    position: relative;
+    display: flex;
+    justify-self: center;
+}
+
+section.slide:hover {
+    border-radius: 1rem;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    height: 80vw;
+    overflow: visible;
+}
+
+section.slide {
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+    height: 80vw;
+    width: 12vw;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+section:hover h3 {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}

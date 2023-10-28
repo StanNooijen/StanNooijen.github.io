@@ -1,0 +1,103 @@
+body{
+    font-size: 8px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cards a{
+    margin: 1rem 1rem 1rem 1rem;
+    text-decoration: none;
+    background: white;
+    color: black;
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    border-color: white;
+    border-style: solid;
+}
+
+.cards a:hover{
+    color: white;
+    background: #491d90;
+    border-color: #000000;
+    border-style: solid;
+}
+
+.bigCard{
+    background: white;
+    box-sizing: border-box;
+    flex: 1 1 100%;
+    margin: 1rem .25rem;
+    border-style: solid;
+    box-shadow: rgb(120, 20, 250) 0px 5px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.smallCard{
+    background: white;
+    box-sizing: border-box;
+    flex: 1 1 100%;
+    margin: 1rem .25rem;
+    border-style: solid;
+    box-shadow: rgb(120, 20, 250) 0px 5px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cardTop{
+    opacity: 95%;
+    background: #491d90 ;
+    color: white;
+    text-align: center;
+    border-radius: 0px 0px 0px 0px;
+    padding: 0.1%;
+    margin-bottom: 2rem;
+}
+
+.card{
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+
+/*phone*/
+@media screen and (min-width: 650px){
+
+    .bigCard{
+        background: white;
+        box-sizing: border-box;
+        flex: 0 1 calc(49% - 1em);
+        margin: 1rem .25em;
+    }
+
+    .smallCard{
+        background: white;
+        box-sizing: border-box;
+        flex: 0 1 calc(49% - 1em);
+        margin: 1rem .25em;
+        border-style: solid;
+    }
+    
+}
+
+/*tablet*/
+@media screen and (min-width: 1280px) {
+    body{
+        font-size: 18px;
+    }
+
+    .bigCard{
+        flex: 0 1 calc(50% - 1em);
+    }
+
+
+    .smallCard{
+        flex: 0 1 32%;
+        border-radius: 15px;
+    }
+}

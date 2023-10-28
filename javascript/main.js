@@ -1,35 +1,35 @@
-let popUp = document.getElementById("cookiePopup");
-
-document.getElementById("acceptCookie").addEventListener("click", () => {
-
-  let d = new Date();
-
-
-  d.setMinutes(2 + d.getMinutes());
-
-  document.cookie = "myCookieName=thisIsMyCookie; expires = " + d + ";";
-
-  popUp.classList.add("hide");
-  popUp.classList.remove("show");
-});
-
-const checkCookie = () => {
-  let input = document.cookie.split("=");
-
-  if(input[0] == "myCookieName") {
-    popUp.classList.add("hide");
-    popUp.classList.remove("show");
-  } else {
-    popUp.classList.add("show");
-    popUp.classList.remove("hide");
-  }
-};
-
-window.onload = () =>{
-  setTimeout(() => {
-    checkCookie();
-  }, 2000);
-}
+// let popUp = document.getElementById("cookiePopup");
+//
+// document.getElementById("acceptCookie").addEventListener("click", () => {
+//
+//   let d = new Date();
+//
+//
+//   d.setMinutes(2 + d.getMinutes());
+//
+//   document.cookie = "myCookieName=thisIsMyCookie; expires = " + d + ";";
+//
+//   popUp.classList.add("hide");
+//   popUp.classList.remove("show");
+// });
+//
+// const checkCookie = () => {
+//   let input = document.cookie.split("=");
+//
+//   if(input[0] == "myCookieName") {
+//     popUp.classList.add("hide");
+//     popUp.classList.remove("show");
+//   } else {
+//     popUp.classList.add("show");
+//     popUp.classList.remove("hide");
+//   }
+// };
+//
+// window.onload = () =>{
+//   setTimeout(() => {
+//     checkCookie();
+//   }, 2000);
+// }
 
 
 
@@ -63,31 +63,6 @@ window.onload = () =>{
 //   document.getElementById("leftCardsTwo").style.transition = "6s";
 //   document.getElementById("rightImageTwo").style.transition = "6s";
 //   document.getElementById("arrowThree").style.transition = "4s";
-// }
-// function scrollUp() {
-//   window.scrollTo(0, 0);
-//   document.getElementById("arrowThree").style.opacity = "0";
-//   document.getElementById("arrowThree").style.transform = "translateX(-300%)";
-//   for (var i = 0; i < leftIds.length; i++) {
-//     document.getElementById(leftIds[i]).style.opacity = "0";
-//     document.getElementById(leftIds[i]).style.transform = "translateX(-100%)";
-//   }
-//   for (var i = 0; i < rightIds.length; i++) {
-//     document.getElementById(rightIds[i]).style.opacity = "0";
-//     document.getElementById(rightIds[i]).style.transform = "translateX(100%)";
-//   }
-// }
-// function loaded() {
-//   document.getElementById("arrowThree").style.opacity = "0";
-//   document.getElementById("arrowThree").style.transform = "translateX(-300%)";
-//   for (var i = 0; i < leftIds.length; i++) {
-//     document.getElementById(leftIds[i]).style.opacity = "0";
-//     document.getElementById(leftIds[i]).style.transform = "translateX(-100%)";
-//   }
-//   for (var i = 0; i < rightIds.length; i++) {
-//     document.getElementById(rightIds[i]).style.opacity = "0";
-//     document.getElementById(rightIds[i]).style.transform = "translateX(100%)";
-//   }
 // }
 
 // panels.forEach((panel) => {
