@@ -21,7 +21,7 @@
 
 
 body {
-    font-size: 12px;
+    font-size: 16px;
     background-color: var(--background);
     margin: 0rem;
     padding: 0rem;
@@ -106,7 +106,6 @@ body {
 }
 
 
-
 .row {
     justify-content: center;
     display: flex;
@@ -126,6 +125,18 @@ body {
 .col p {
     width: 100%;
 }
+
+.About {
+    background-color: white;
+    width: 80% !important;
+    border: solid none;
+    border-radius: 0px 3000px 3000px 0px;
+}
+
+.About p {
+    width: 90%;
+}
+
 
 
 .titles {
@@ -242,9 +253,15 @@ body {
         width: 80%;
     }
 
+    .row:nth-child(1) {
+        width: 100%;
+    }
+
     .col {
+        height: 100vh;
         width: 40%;
     }
+
 
     .col p {
         width: 100%;
@@ -253,5 +270,9 @@ body {
     .img {
         width: 25rem;
         height: 25rem;
+    }
+
+    .About p {
+        width: 80%;
     }
 }
