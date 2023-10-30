@@ -53,7 +53,7 @@
 
 .cardTop {
     opacity: 95%;
-    background: #491d90;
+    background: var(--background);
     color: white;
     text-align: center;
     border-radius: 0px 0px 0px 0px;
