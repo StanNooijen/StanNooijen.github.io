@@ -81,6 +81,7 @@ body {
 }
 
 .container {
+    background-color: var(--background);
     display: flex;
     flex-direction: column;
     justify-content: center;
