@@ -1,56 +1,30 @@
 <!DOCTYPE html>
-
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<link rel="stylesheet" href="/styles/style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/style.css" />
+  <link rel="stylesheet" href="/styles/cards.css" />
 
-<head>
-    <link rel="icon" href="img/icon.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <meta charset="utf-8" />
+  <head>
+    <link rel="icon" href="/assets/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio Stan Nooijen</title>
+  </head>
 
-</head>
-
-<body class="example cross">
-    <div style="height: 59.86rem;">
-        <ul class="topnav shadow p-3 mb-5 bg-body rounded">
-            <div class="diag1"></div>
-            <div class="diag2"></div>
-            <li class="fs-1 hmm">Stan Nooijen</li>
-            <li class="textNavbar"><a href="/index.html">Home</a></li>
-            <li class="textNavbar"><a href="../werk.html">creaties</a></li>
-            <li class="textNavbar2 activet" style="float: right;"><a href="./arcade.html">NL</a></li>
-            <li class="textNavbar2" style="float: right;"><a href="./arcade_eng.html">Eng</a></li>
-        </ul>
-        <div class="projecten">
-            <h1>Arcade</h1>
+  <body>
+    <div>
+      <ul class="nav-list">
+        <li class="nav-item">Stan Nooijen</li>
+        <li class="nav-item"><a href="/pages/werk.html">pages</a></li>
+        <li class="nav-item"><a href="/index.html">Home</a></li>
+        <li class="nav-item"><a onclick="About()">About</a></li>
+        <li class="nav-item"><a href="/pages/memory/memory.html">NL</a></li>
+        <li class="nav-item"><a href="/pages/memory/memoryEng.html">Eng</a></li>
+      </ul>
+      <div class="container">
+        <h1>Memory</h1>
+        <div class="row">
+          <div class="col"></div>
         </div>
-
-        <div class="container">
-            <div class="row cols-2">
-                <div class="col-lg-6">
-                    <div class="card-header headertext">
-                        <h1 class="headertext"></h1>
-                    </div>
-                    <div class="card-body Alltext">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <!--<img src="arcade/img/Arcade.png">-->
-                </div>
-            </div>
-            <div class="col">
-            </div>
-        </div>
+      </div>
     </div>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
-
+  </body>
 </html>

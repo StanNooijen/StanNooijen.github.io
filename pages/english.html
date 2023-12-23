@@ -1,78 +1,80 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<meta charset="utf-8" />
-<link href="/styles/style.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <link href="/styles/style.css" rel="stylesheet" />
 
-<head>
-  <link rel="icon" href="/img/icon.png">
-  <meta name="viewport" content="width=device-width, user-scalable=no" />
-  <title>Portfolio Stan Nooijen</title>
-</head>
+  <head>
+    <link rel="icon" href="/assets/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio Stan Nooijen</title>
+  </head>
 
-<body class="example">
-  <div>
-    <ul class="nav-list">
-      <li class="nav-item">Stan Nooijen</li>
-      <li class="nav-item"><a href="/pages/work.html">pages</a></li>
-      <li class="nav-item"><a href="/pages/english.html">Home</a></li>
-      <li class="nav-item"><a onclick="About">About</a></li>
-      <li class="nav-item"><a href="/index.html">NL</a></li>
-      <li class="nav-item"><a href="/pages/english.html">Eng</a></li>
-    </ul>
+  <body class="example">
+    <div>
+      <ul class="nav-list">
+        <li class="nav-item">Stan Nooijen</li>
+        <li class="nav-item"><a href="/pages/work.html">pages</a></li>
+        <li class="nav-item"><a href="/pages/english.html">Home</a></li>
+        <li class="nav-item"><a onclick="About()">About</a></li>
+        <li class="nav-item"><a href="/index.html">NL</a></li>
+        <li class="nav-item active"><a href="/pages/english.html">Eng</a></li>
+      </ul>
+      <div class="container">
+        <h1 class="home-title">
+          <span>::if you Think math is hard, try web design</span>
+        </h1>
+      </div>
+    </div>
+    <div
+      class="container"
+      style="background-size: cover; background-image: url('/assets/me.jpg')"
+    >
+      <div class="row">
+        <div class="col About" id="About">
+          <h1>About me</h1>
+          <p>
+            I am Stan Nooijen. I am currently following Software Development at
+            SintLucas. I have worked with several coding languages, such as
+            HTML, CSS, Javascript and C#. I am open to learning new things.
+          </p>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
     <div class="container">
-      <H1 class="home-title">
-        <span>::if you Think math is hard, try web design</span>
-      </H1>
-    </div>
-  </div>
-  <div class="container" style="background-size: cover; background-image: url('/img/me.jpg');">
-    <div class="row">
-      <div class="col About">
-        <H1>About me</H1>
-        <p>I am Stan Nooijen.
-          I am currently following Software Development at SintLucas.
-          I have worked with several coding languages, such as HTML, CSS, Javascript and C#. I am open to learning new
-          things.</p>
-      </div>
-      <div class="col">
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <H1>Strong points</H1>
-        <div>
-          <p>1.</p>
-          <p>2.</p>
-          <p>3.</p>
+      <div class="row">
+        <div class="col">
+          <h1>Strong points</h1>
+          <div>
+            <p>1.</p>
+            <p>2.</p>
+            <p>3.</p>
+          </div>
+          <h1>Weak points</h1>
+          <div>
+            <p>1.</p>
+            <p>2.</p>
+            <p>3.</p>
+          </div>
         </div>
-        <H1>Weak points</H1>
-        <div>
-          <p>1.</p>
-          <p>2.</p>
-          <p>3.</p>
+        <div class="col AboutRight">
+          <h1>Experience</h1>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>C#</p>
+          <p>java</p>
         </div>
       </div>
-      <div class="col AboutRight">
-        <H1>Experience</H1>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
-        <p>C#</p>
-        <p>java</p>
+    </div>
+    <footer>
+      <div class="row">
+        <span class="col">
+          <p>Contact</p>
+        </span>
       </div>
-    </div>
-  </div>
-  <footer>
-    <div class="row">
-      <span class="col">
-        <p>Contact</p>
-      </span>
-    </div>
-  </footer>
-</body>
-<script src="../javascript/main.js"></script>
-
+    </footer>
+  </body>
+  <script src="../javascript/main.js"></script>
 </html>

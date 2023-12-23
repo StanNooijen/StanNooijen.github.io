@@ -1,6 +1,6 @@
 :root {
-    --background: #35155D;
-    --secondary-color: rgb(120, 20, 250);
+    --background: #52057B;
+    --secondary-color: #000000;
     --color-text-primary: #ffffff;
     --color-text-secondary: #000000;
 }
@@ -8,8 +8,9 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
     justify-content: space-between;
+    width: 90%;
+
 }
 
 .cards a {
@@ -20,6 +21,7 @@
     border-radius: 0px 0px 0px 0px;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-color: var(--color-text-primary);
     border-style: solid;
 }
@@ -29,42 +31,53 @@
     background: var(--background);
     border-color: var(--color-text-secondary);
     border-style: solid;
+    border-radius: 1rem;
 }
 
 .bigCard {
+    display: flex;
+    flex-direction: column;
     background: var(--color-text-primary);
     box-sizing: border-box;
     flex: 1 1 100%;
     margin: 1rem .25rem;
     border-style: solid;
-    box-shadow: 0 4px 12px -5px rgb(120, 20, 250);
+    box-shadow: 0 0px 30px 0px rgb(120, 20, 250);
     border-radius: 10px 10px 10px 10px;
 }
 
+.bigCard p {
+    margin-left: 1rem;
+}
+
 .smallCard {
+    display: flex;
+    flex-direction: column;
     background: white;
     box-sizing: border-box;
     flex: 1 1 100%;
     margin: 1rem .25rem;
     border-style: solid;
-    box-shadow: 0 4px 12px -5px rgb(120, 20, 250);
+    box-shadow: 0 0px 30px 0px rgb(120, 20, 250);
     border-radius: 10px 10px 10px 10px;
 }
+
+.smallCard p {
+    margin-left: 1rem;
+}
+
 
 .cardTop {
     opacity: 95%;
     background: var(--background);
     color: white;
     text-align: center;
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
     padding: 0.1%;
     margin-bottom: 2rem;
 }
 
-.card {
-    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
-    font-size: 1.1rem;
-}
+
 
 
 /*phone*/
@@ -74,14 +87,13 @@
         background: white;
         box-sizing: border-box;
         flex: 0 1 calc(49% - 1em);
-        margin: 1rem .25em;
+        margin: ;
     }
 
     .smallCard {
         background: white;
         box-sizing: border-box;
         flex: 0 1 calc(49% - 1em);
-        margin: 1rem .25em;
         border-style: solid;
     }
 
