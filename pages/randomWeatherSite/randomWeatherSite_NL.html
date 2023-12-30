@@ -1,105 +1,87 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<link rel="stylesheet" href="/styles/style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/style.css" />
+  <link rel="stylesheet" href="/styles/cards.css" />
 
-<head>
-    <link rel="icon" href="/img/icon.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <head>
+    <link rel="icon" href="/assets/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio Stan Nooijen</title>
+  </head>
 
-</head>
-
-<body class="example cross">
-    <div style="height: 59.86rem;">
-        <ul class="topnav shadow p-3 mb-5 bg-body rounded">
-            <div class="diag1"></div>
-            <div class="diag2"></div>
-            <li class="fs-1 hmm">Stan Nooijen</li>
-            <li class="textNavbar"><a href="../english.html">Home</a></li>
-            <li class="textNavbar"><a href="../work.html">creations</a></li>
-            <li class="textNavbar2" style="float: right;"><a href="./agile.html">NL</a></li>
-            <li class="textNavbar2 activet" style="float: right;"><a href="./agile_eng.html">Eng</a></li>
-        </ul>
-
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card-header headertext">
-                        <h1 class="headertext topImg"></h1>
-                    </div>
-                    <br>
-                    <div class="card-body Alltext">
-                        Bappo is a 2D platformer in black and white theme. The goal is to get to the end of the level
-                        with a certain number of coins.<br>
-                        There are enemies trying to obstruct you but sometimes there are also power ups or there are
-                        puzzles in the level that you have to solve.
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="card-header headertext">
-                        <h1 class="headertext">What have I done?</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <body class="example">
+    <div>
+      <ul class="nav-list">
+        <li class="nav-item">Stan Nooijen</li>
+        <li class="nav-item"><a href="/pages/werk.html">Pages</a></li>
+        <li class="nav-item"><a href="/index.html">Home</a></li>
+        <li class="nav-item">
+          <a onclick="About()">About</a>
+        </li>
+        <li class="nav-item"><a href="/pages/randomWeatherSite/randomWeatherSite_NL.html">NL</a></li>
+        <li class="nav-item"><a href="/pages/randomWeatherSite/randomWeatherSite_EN.html">Eng</a></li>
+      </ul>
+      <div class="container">
+        <h1 class="header">RandomWeatherSite</h1>
         <div class="row">
-            <div class="col">
-                <main>
-                    <div class="gallery-container">
-                        <section class="slide Weatherimg1">
-                            <section class="panel images">
-                                <h3>Random Icon picker</h3>
-                            </section>
-                        </section>
-                    </div>
-                    <div class="gallery-container">
-                        <section class="slide Weatherimg2">
-                            <section class="panel images ">
-                                <h3>grades generator</h3>
-                            </section>
-                        </section>
-                    </div>
-                    <div class="gallery-container">
-                        <section class="slide Weatherimg3">
-                            <section class="panel images">
-                                <h3>plaats alles</h3>
-                            </section>
-                        </section>
-                    </div>
-                    <div class="gallery-container">
-                        <section class="slide Weatherimg4">
-                            <section class="panel images">
-                                <h3>datum checker</h3>
-                            </section>
-                        </section>
-                    </div>
-                </main>
-            </div>
+          <div class="col"></div>
         </div>
-        <div class="container" style="padding-top: 3rem;">
-            <div class="row">
-                <div class="col">
-                    <div class="card-header headertext">
-                        <h1 class="headertext">Website</h1>
-                    </div>
-                    <div class="card-body" style="margin-left: 33rem; margin-top: -0.1rem;">
-                        <a href="" class="btn1" style="width:14rem;">Bekijk website</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
-
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Wat is het?</h1>
+          <p>
+            Dit is een website waar je het weer van de aankomende week kan zien alleen is alles random.
+            Als je het elke keer refreshed dan komt er iets nieuws te staan.
+          </p>
+          <h1>Waarom heb ik dit gemaakt?</h1>
+          <p>
+            Dit is een project waar ik zelf aan begonnen ben omdat ik iets meer uitdaging wou gaan zoeken en andere dingen aan het ontdekken was in javascript
+          </p>
+          <h1>Waar is het mee gemaakt?</h1>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+          <p>
+            <a href="https://github.com/StanNooijen/Randomized-Weather-website"
+            >Github link</a
+          </p>
+        </div>
+      </div>
+    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div>
+              <h1>Website</h1>
+            </div>
+            <div>
+              <a href="https://stannooijen.github.io/Randomized-Weather-website/">Bekijk website</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="row">
+      <span class="col">
+        <p>Linked-In:</p>
+        <a href="https://www.linkedin.com/in/stan-nooijen-205882241/"
+          >Stan Nooijen</a
+        >
+      </span>
+      <span class="col">
+        <p>Contact</p>
+        <p>Stan Nooijen</p>
+      </span>
+      <span class="col">
+        <p>Email:</p>
+        <a>Stan.nooijen@gmail.com</a>
+      </span>
+    </div>
+  </footer>
 </html>

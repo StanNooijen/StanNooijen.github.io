@@ -1,106 +1,118 @@
 <!DOCTYPE html>
-<meta charset="utf-8" />
+
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<link rel="stylesheet" href="/styles/style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="/styles/style.css" />
+  <link rel="stylesheet" href="/styles/cards.css" />
+  <link rel="stylesheet" href="makey.css" />
 
-<head>
-    <link rel="icon" href="img/icon.png">
+  <head>
+    <link rel="icon" href="/assets/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio Stan Nooijen</title>
-</head>
+  </head>
 
-<body class="example cross">
-    <div style="height: 59.86rem;">
-        <ul class="topnav shadow p-3 mb-5 bg-body rounded">
-            <div class="diag1"></div>
-            <div class="diag2"></div>
-            <li class="fs-1 hmm">Stan Nooijen</li>
-            <li class="textNavbar"><a href="../english.html">Home</a></li>
-            <li class="textNavbar"><a href="../work.html">creations</a></li>
-            <li class="textNavbar2" style="float: right;"><a href="./makey.html">NL</a></li>
-            <li class="textNavbar2 activet" style="float: right;"><a href="./makey_eng.html">Eng</a></li>
+  <body class="example">
+    <div>
+        <ul class="nav-list">
+          <li class="nav-item">Stan Nooijen</li>
+          <li class="nav-item"><a href="/pages/work.html">pages</a></li>
+          <li class="nav-item"><a href="/pages/english.html">Home</a></li>
+          <li class="nav-item"><a onclick="About()">About</a></li>
+          <li class="nav-item"><a href="/pages/makey/makey.html">NL</a></li>
+          <li class="nav-item"><a href="/pages/makey/makey_eng.html">Eng</a></li>
         </ul>
-
-        <div class="projecten">
-            <h1>Makey Makey</h1>
-        </div>
-
         <div class="container">
-            <div class="col ">
-                <div class="card-header headertext">
-                    <h1 class="headertext">makey makey</h1>
+          <h1 class="header">Makey Makey</h1>
+          <div class="row">
+            <div class="col"><p>2020</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+              <div class="card">
+                <div>
+                  <h1>makey makey</h1>
                 </div>
-                <div class="card-body Alltext">makey makey is a chip that you can use to make a controller for a game or
-                    other things.</div>
+                <div>
+                    makey makey is a chip that you can use to make a controller for a game or
+                    other things.
+                </div>
+                <div class="videoSmall">
+                  <video controls>
+                    <source
+                      src="/pages/makey/img/makeymakeyvid2.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+              </div>
             </div>
-            <div class="row cols-2">
-                <div class="col-lg-6">
-                    <div class="card-header headertext">
-                        <h1 class="headertext">dance game controller</h1>
-                    </div>
-                    <div class="card-body Alltext">
-                        first we had made a simple prototype that you can use with your hands. Me and a
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div>
+                <h1>dance game controller</h1>
+              </div>
+             <div>
+                first we had made a simple prototype that you can use with your hands. Me and a
                         friend made a controller for a music game that you can control with your feet.
                         Here are some videos and pictures of the controller.
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card-header headertext">
-                        <h1 class="headertext">shellshock controller</h1>
-                    </div>
-                    <div class="card-body Alltext">
-                        this is a larger project I made with a few friends. In this project we made a
+              </div>
+              <div class="videoSmall">
+                <video  controls>
+                  <source
+                    src="/pages/makey/img/makeymakeyvid1.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div>
+                <h1>shellshock controller</h1>
+              </div>
+              <div>
+                this is a larger project I made with a few friends. In this project we made a
                         life-sized controller with the makey makey and aluminum foil. the controller was
                         made for the game shell shock. you could play it with 2 people, because we had 2 controllers
                         made on each side 1 person could play.
-                    </div>
-                </div>
+              </div>
+              <div class="videoSmall">
+                <video controls>
+                  <source
+                    src="/pages/makey/img/mainmakeymakeyvid.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-xs">
-                    <div class="card-header headertext">
-                        <h1 class="headertext">shellshock controller</h1>
-                    </div>
-                    <div class="card-body Alltext" style="text-align: center;">
-                        <video width="800" height="650" controls>
-                            <source src="/pages/makey/img/mainmakeymakeyvid.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
-            <div class="row cols-2">
-                <div class="col-lg-6">
-                    <div class="card-header headertext">
-                        <h1 class="headertext">dance game controller</h1>
-                    </div>
-                    <div class="card-body Alltext" style="text-align: center;">
-                        <video width="500" height="350" controls>
-                            <source src="/pages/makey/img/makeymakeyvid1.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card-header headertext">
-                        <h1 class="headertext">dance game controller</h1>
-                    </div>
-                    <div class="card-body Alltext" style="text-align: center;">
-                        <video width="500" height="350" controls>
-                            <source src="/pages/makey/img/makeymakeyvid2.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </body>
+  <footer>
+    <div class="row">
+      <span class="col">
+        <p>Linked-In:</p>
+        <a href="https://www.linkedin.com/in/stan-nooijen-205882241/"
+          >Stan Nooijen</a
+        >
+      </span>
+      <span class="col">
+        <p>Contact</p>
+        <p>Stan Nooijen</p>
+      </span>
+      <span class="col">
+        <p>Email:</p>
+        <a>Stan.nooijen@gmail.com</a>
+      </span>
     </div>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
-
+  </footer>
 </html>

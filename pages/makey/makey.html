@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="/styles/style.css" />
   <link rel="stylesheet" href="/styles/cards.css" />
+  <link rel="stylesheet" href="makey.css" />
 
   <head>
     <link rel="icon" href="/assets/icon.png" />
@@ -11,8 +12,8 @@
     <title>Portfolio Stan Nooijen</title>
   </head>
 
-  <body>
-    <div>
+  <body class="example">
+      <div>
         <ul class="nav-list">
           <li class="nav-item">Stan Nooijen</li>
           <li class="nav-item"><a href="/pages/werk.html">pages</a></li>
@@ -22,104 +23,99 @@
           <li class="nav-item"><a href="/pages/makey/makey_eng.html">Eng</a></li>
         </ul>
         <div class="container">
-          <h1>Makey Makey</h1>
+          <h1 class="header">Makey Makey</h1>
           <div class="row">
-            <div class="col"></div>
+            <div class="col"><p>2020</p></div>
           </div>
         </div>
       </div>
-
-      <div class="projecten">
-        <h1>Makey Makey</h1>
-      </div>
-
       <div class="container">
         <div class="row">
             <div class="col">
-                <div class="cardTop">
-                    <h1>makey makey</h1>
+              <div class="card">
+                <div>
+                  <h1>makey makey</h1>
                 </div>
-                <div class="cardText">
-                    <p>makey makey is een chip die je kan gebruiken voor het maken van een
-                    controller voor een game of andere dingen.</p>
+                <div >
+                  makey makey is een chip die je kan gebruiken voor het maken van een
+                  controller voor een game of andere dingen.
                 </div>
+                <div class="videoSmall">
+                  <video controls>
+                    <source
+                      src="/pages/makey/img/makeymakeyvid2.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+              </div>
             </div>
         </div>
         <div class="row">
           <div class="col">
-            <div>
-              <h1>dance game controller</h1>
-            </div>
-            <div>
-              als eerst hadden we een simpele prototype gemaakt die je kan
-              gebruiken met je handen. Ik en een vriend hebben een controller
-              gemaakt voor een muziek game die je kan besturen met je voeten.
-              hier zijn een paar filmpjes en afbeeldingen van de controller.
-            </div>
-          </div>
-          <div class="col">
-            <div>
-              <h1>shellshock controller</h1>
-            </div>
-            <div>
-              dit is een groter project die ik heb gemaakt met een paar
-              vrienden. In dit project hebben we een levens grote controller
-              gemaakt met de makey makey en alluminium folie. de controller was
-              gemaakt voor de game shell shock. je kon het met 2 mensen spelen
-              ,want we hadden 2 controllers gemaakt aan elke kant kon 1 iemand
-              spelen.
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div>
-              <h1 >shellshock controller</h1>
-            </div>
-            <div>
-              <video width="800" height="650" controls>
-                <source
-                  src="/pages/makey/img/mainmakeymakeyvid.mp4"
-                  type="video/mp4"
-                />
-              </video>
-            </div>
-          </div>
-        </div>
-        <div class="row ">
-          <div class="col">
-            <div>
-              <h1>dance game controller</h1>
-            </div>
-            <div >
-              <video width="500" height="350" controls>
-                <source
-                  src="/pages/makey/img/makeymakeyvid1.mp4"
-                  type="video/mp4"
-                />
-              </video>
+            <div class="card">
+              <div>
+                <h1>dance game controller</h1>
+              </div>
+             <div>
+                als eerst hadden we een simpele prototype gemaakt die je kan
+                gebruiken met je handen. Ik en een vriend hebben een controller
+                gemaakt voor een muziek game die je kan besturen met je voeten.
+                hier zijn een paar filmpjes en afbeeldingen van de controller.
+              </div>
+              <div class="videoSmall">
+                <video  controls>
+                  <source
+                    src="/pages/makey/img/makeymakeyvid1.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
             </div>
           </div>
           <div class="col">
-            <div>
-              <h1>dance game controller</h1>
-            </div>
-            <div>
-              <video width="500" height="350" controls>
-                <source
-                  src="/pages/makey/img/makeymakeyvid2.mp4"
-                  type="video/mp4"
-                />
-              </video>
+            <div class="card">
+              <div>
+                <h1>shellshock controller</h1>
+              </div>
+              <div>
+                dit is een groter project die ik heb gemaakt met een paar
+                vrienden. In dit project hebben we een levens grote controller
+                gemaakt met de makey makey en alluminium folie. de controller was
+                gemaakt voor de game shell shock. je kon het met 2 mensen spelen
+                ,want we hadden 2 controllers gemaakt aan elke kant kon 1 iemand
+                spelen.
+              </div>
+              <div class="videoSmall">
+                <video controls>
+                  <source
+                    src="/pages/makey/img/mainmakeymakeyvid.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"
-  ></script>
+  <footer>
+    <div class="row">
+      <span class="col">
+        <p>Linked-In:</p>
+        <a href="https://www.linkedin.com/in/stan-nooijen-205882241/"
+          >Stan Nooijen</a
+        >
+      </span>
+      <span class="col">
+        <p>Contact</p>
+        <p>Stan Nooijen</p>
+      </span>
+      <span class="col">
+        <p>Email:</p>
+        <a>Stan.nooijen@gmail.com</a>
+      </span>
+    </div>
+  </footer>
 </html>

@@ -102,7 +102,7 @@ body {
 .container:nth-child(odd) {
     background-color: var(--secondary-color);
     opacity: 95%;
-    color: var(--color-text-secondary);
+    color: var(--color-text-primary);
 }
 
 
@@ -214,6 +214,11 @@ body {
     }
 }
 
+img{
+    border: solid 3px var(--color-text-secondary);
+    width: clamp(300px, 40%, 1000px);
+}
+
 
 .About {
     background-color: var(--background);
@@ -273,7 +278,7 @@ footer {
 /*tablet*/
 @media screen and (min-width: 650px) {
     body {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .container {
@@ -339,7 +344,7 @@ footer {
 /* pc */
 @media screen and (min-width: 1280px) {
     body {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .nav-list {
@@ -355,8 +360,10 @@ footer {
         padding: 1rem;
     }
 
-    .container {
+    .header{
+        scale: 2;
     }
+
 
     .row:nth-child(1) {
         width: 100%;
