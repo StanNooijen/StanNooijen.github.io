@@ -270,7 +270,15 @@ footer {
 .Hire{
     font: 20px;
     margin: 3rem;
-}    
+}  
+
+.points{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 
 
